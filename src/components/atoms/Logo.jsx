@@ -6,7 +6,7 @@ import { theme } from "../../theme";
 const Heading = styled(motion.div)`
   margin-top: 2rem;
   position: relative;
-  font-family: Permanent Marker;
+  font-family: Oxanium;
   opacity: 0.9;
   white-space: nowrap;
   margin-bottom: 4rem;
@@ -25,13 +25,19 @@ const R = styled.div`
 `;
 const Sommer = styled.div`
   color: ${theme.primary};
-  margin-bottom: ${(p) => p.f * -4}rem;
+  margin-bottom: ${(p) => p.f * -2}rem;
   font-size: ${(p) => p.f * 6}rem;
+  font-weight: 300;
+`;
+const Benteue = styled.div`
+  font-size: ${(p) => p.f * 4}rem;
+  transform: rotate(0);
 `;
 const Sommer2 = styled.div`
   color: ${theme.primary};
   margin-bottom: ${(p) => p.f * -4}rem;
-  font-size: ${(p) => p.f * 8}rem;
+  font-size: ${(p) => p.f * 10}rem;
+  font-weight: 300;
 `;
 const A = styled.div`
   position: absolute;
@@ -39,10 +45,7 @@ const A = styled.div`
   left: ${(p) => p.f * -6.3}rem;
   font-size: ${(p) => p.f * 8}rem;
 `;
-const Benteue = styled.div`
-  font-size: ${(p) => p.f * 5}rem;
-  transform: rotate(-3deg);
-`;
+
 
 export const Logo = ({ size = 1, responsive = true }) => {
   let f;
@@ -71,9 +74,9 @@ export const Logo = ({ size = 1, responsive = true }) => {
         ],
       }}
     >
-      <Sommer f={f}>2021</Sommer>
+      <Sommer f={f}>2022</Sommer>
       <Benteue f={f}>Game'n'Grill</Benteue>
-      <Sommer2 f={f}>ELEMENTS</Sommer2>
+      <Sommer2 f={f}>STELLARIS</Sommer2>
     </Heading>
   );
 };

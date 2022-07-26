@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../../theme";
 
 export const H1 = styled.div`
-  font-family: Permanent Marker;
+  font-family: Oxanium;
   opacity: 0.9;
   white-space: nowrap;
   margin-bottom: 3rem;

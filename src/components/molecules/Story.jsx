@@ -11,13 +11,14 @@ const Container = styled.div`
   flex-direction: column;
   background:white;
   margin:2rem 0;
-  box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+  box-shadow: 5px 5px 5px rgba(255, 127, 127,.3), -5px -5px 5px rgba(255, 127, 127,.3);
+  background-image: url("/img/alu3.jpg");
   &:first-letter {
     font-size: 3rem;
     line-height: 1;
-    font-family: Permanent Marker;
+    font-family: Roboto;
     float: left;
-    font-weight: bold;
+    font-weight: ;
     color: ${theme.primary};
     text-shadow: ${theme.textShadow};
     padding-right: 0.125em;
@@ -53,9 +54,9 @@ export const Story = ({ children, style }) => {
       {/* <CornerBL />
       <CornerBR />
       <CornerTL />
-      <CornerTR /> */}
+      <CornerTR />
       <Corner/>
-      <Corner2/>
+      <Corner2/> */}
       {children}
     </Container>
   );

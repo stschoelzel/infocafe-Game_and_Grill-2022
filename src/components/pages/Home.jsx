@@ -9,24 +9,24 @@ import { theme } from "../../theme";
 import { DasBrauchtIhrIcons } from "../molecules/DasBrauchtIhrIcons";
 import { ConfiguredTableOfContents } from "../organisms/ConfiguredTableOfContents";
 import { unlocked } from "../../config";
-import { Smaragd } from "../atoms/Smaragd";
-import { Schild } from "../atoms/Schild";
+
 
 export const Home = () => {
   return (
     <Parchment>
-      <Logo />
+      <Logo /> 
 
       <Story>
+        <div style={{ textDecoration: "none",   color: theme.primary, opactiy: 1 }}>
         Die Sommerferien sind da und das diesjährige Game’n’Grill steht wieder
         vor der Tür: Ein neues Abenteuer voller Rätsel, Spiel und Spaß beginnt!
         <br />
         <br />
+        Vier Wochen mit je Drei Aufgaben.
+        <br />
+        <br />
         Die Spiele sind eröffnet!
-        <br />
-        <br />
-        Was es genau in etwa 4 Wochen gibt wenn alles gelöst ist, wohin die
-        reise führt und den ganzen Rest... das wird sich zeigen ;)
+        </div>
       </Story>
 
       <Divider />
@@ -37,10 +37,10 @@ export const Home = () => {
       <p style={{ marginBottom: "D" }}>
         Bei Rückfragen könnt ihr eine Email an{" "}
         <a
-          style={{ textDecoration: "none", color: theme.primary, opactiy: 0.5 }}
-          href="mailto:gng21@infocafe.org"
+          style={{ textDecoration: "none",  color: theme.primary, opactiy: 0.5 }}
+          href="mailto:gng@infocafe.org"
         >
-          GNG21@infocafe.org
+          GNG@infocafe.org
         </a>{" "}
         schreiben
       </p>

@@ -6,7 +6,7 @@ const InputEl = styled.input`
   border: none;
   background: none;
   border-bottom: 2px dotted ${theme.secondary};
-  font-family: Indie Flower;
+  font-family: Roboto;
   font-weight: bold;
   font-size: 1.1rem;
 `;

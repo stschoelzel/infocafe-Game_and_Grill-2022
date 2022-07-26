@@ -4,9 +4,9 @@ import { theme } from "../../theme";
 import { Link } from "react-router-dom";
 
 const BacktoHomeLink = styled(Link)`
-  font-family: Permanent Marker;
+  font-family: Oxanium;
   font-size: ${(p) => p.f * 5}rem;
-  transform: rotate(-3deg);
+  transform: rotate(-0);
   color: ${theme.secondary};
   text-shadow: ${theme.textShadow};
     &:hover {

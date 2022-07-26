@@ -6,7 +6,7 @@ const InputEl = styled.input`
   border: none;
   background: none;
   color: inherit;
-  font-family: Indie Flower;
+  font-family: Roboto;
   font-weight: bold;
   font-size: 1.1rem;
 `;
@@ -15,7 +15,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   border-bottom: 2px dotted ${theme.secondary};
-  font-family: Indie Flower;
+  font-family: Roboto;
   font-weight: bold;
   font-size: 1.1rem;
 `;
