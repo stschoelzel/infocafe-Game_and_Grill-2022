@@ -16,7 +16,7 @@ const ParchmentComponent = styled(motion.div)`
   font-family: Roboto;
   font-weight: bold;
   font-size: 1.1rem;
-  box-shadow: 0px 0px 1px 1px rgba(255, 127, 127, 0.3),
+  box-shadow: 0px 0px 1px 1px rgba(255, 127, 127, 0.5),
     0px 0px 5px 3px
       rgba(
         ${Math.min(theme.accent[0] + 100, 255)},

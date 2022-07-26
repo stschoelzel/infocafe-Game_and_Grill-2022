@@ -11,7 +11,7 @@ const Container = styled.div`
   flex-direction: column;
   background:white;
   margin:2rem 0;
-  box-shadow: 5px 5px 5px rgba(255, 127, 127,.3), -5px -5px 5px rgba(255, 127, 127,.3);
+  box-shadow: 5px 5px 5px rgba(255, 127, 127,.1), -5px -5px 5px rgba(255, 127, 127,.1), 5px -5px 0px rgba(255, 127, 127,.1), -5px 5px 0px rgba(255, 127, 127,.1);
   background-image: url("/img/alu3.jpg");
   &:first-letter {
     font-size: 3rem;
