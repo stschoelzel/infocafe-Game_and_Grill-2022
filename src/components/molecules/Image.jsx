@@ -19,13 +19,12 @@ const Container = styled.div`
 `;
 
 
-export const Image = ({ src, style, text}) => {
+export const Image = ({ src, text}) => {
   return (
-    <Container style={style}>
-      <figure>
+    <Container >
+      <figure style={{ alignSelf: "center", margin: "1rem 0", width:"100%" }}>
           <img
           src={src}
-          style={{ alignSelf: "center", margin: "0", width:"100%" }}
           />
           <figcaption style={{fontSize:10}}>{text}</figcaption>
       </figure>

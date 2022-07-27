@@ -32,24 +32,38 @@ export const Woche1 = () => {
         heading="Den Blick nach oben gerichtet..."
         question="Meine Vorfahren erklärten mir an jeder Sommersonnenwende unsere natürliche kosmische Ordnung."
         template="_, _, _, _, _, _, _, _, _, _, _"
-        answer={["Merkur", "Venus", "Erde", "Mars", "Asteroidengürtel", "Jupiter", "Saturn", "Uranus", "Neptun", "Kupiergürtel", "Oorsche Wolke"]}
+        answer={[
+          "Merkur",
+          "Venus",
+          "Erde",
+          "Mars",
+          "Asteroidengürtel",
+          "Jupiter",
+          "Saturn",
+          "Uranus",
+          "Neptun",
+          "Kupiergürtel",
+          "Oorsche Wolke",
+        ]}
       >
         Ich ließ meine Gedanken scheifen und erinnerte mich:
         <br />
         <br />
-        Meine Vorfahren erklärten mir an jeder Sommersonnenwende unsere natürliche kosmische Ordnung.
+        Meine Vorfahren erklärten mir an jeder Sommersonnenwende unsere
+        natürliche kosmische Ordnung.
         <br />
         <br />
-        
       </Riddle>
       <Riddle
         index={2}
         chapter={1}
         heading="Andere Dimensionen"
         question="An welchem Ort ist der Merkur?"
-        answer="Atlantis"
+        template="_ Tipp ist X-Y-Z"
+        answer="Brüder-Grimm-Schule"
       >
-        Sie erzählten mir dass Herzen der Stadt ist wie die Sonne. Wenn das so ist, dann wäre das infocafe wohl die Erde.
+        Sie erzählten mir dass Herzen der Stadt ist wie die Sonne. Wenn das so
+        ist, dann wäre das infocafe wohl die Erde.
         <br />
         <br />
         Ich muss anderen dimensionen Denken um zu finden was ich Suche.
@@ -57,186 +71,430 @@ export const Woche1 = () => {
         In völlig anderen Größenordungen.
         <br />
         <br />
-        An welchem Ort ist der Merkur; Planet der Kommunikations, des Wissens und des Verstandes?
-
-        
-        <Image
-          src="img/oortsche.jpg"
-          style={{ alignSelf: "center", margin: "1rem 0", width:"100%" }}
-          text="Bildrechte: ESA"
-        />
-        
+        An welchem Ort ist der Merkur; Planet der Kommunikations, des Wissens
+        und des Verstandes?
+        <figure style={{ alignSelf: "center", margin: "2rem 0" }}>
+          <img style={{ width: "100%" }} src="img/oortsche.jpg" />
+          <figcaption style={{ fontSize: 10 }}>Bildrechte: ESA</figcaption>
+        </figure>
       </Riddle>
       <Riddle
         index={3}
         chapter={1}
-        heading="Der versunkene Tempel"
-        question="Was für ein kleines Wesen versteckt sich zwischen den ganzen Haien?"
-        answer="Seepferdchen"
+        heading="Der Mythos I"
+        question="Welcher Himmelkörper repräsentiert die Sonne?"
+        choices={[
+          ["Die Sonne", "Das Ego"],
+          ["Die Sonne", "Rebellion, Freiheit, Kreativität"],
+          ["Die Sonne", "Das Hier und Jetzt"],
+          ["Die Sonne", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Die Sonne",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Die Sonne", "Emotionen"],
+          [
+            "Die Sonne",
+            "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit",
+          ],
+          ["Die Sonne", "Kommunikation, Logik, Verstand"],
+
+          ["Die Sonne", "Karma, Disziplin, Ordnung"],
+
+          ["Die Sonne", "Intuition, Träume, Illusion"],
+          ["Die Sonne", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[0]}
       >
-        {" "}
-        Nach einer langen Wanderung habt ihr es geschafft und findet endlich den
-        Ältesten der Fischmenschen am Ziel: “Gut gemacht! Ich danke euch
-        vielmals, dass ihr auf meinen Test eingegangen seid und diesen Weg auf
-        euch genommen habt. Ich muss gestehen, dass ich euch doch schon von
-        Anfang an vertraut habe. Ich konnte eure reinen Herzen ganz klar spüren
-        und wusste direkt um die Lage Bescheid. Tut mir Leid, dass ich nicht
-        ganz ehrlich zu euch war. Ich habe den Test als Anlass genommen, um euch
-        zu dieser Stätte hierher zu führen. Aber am besten zeige ich euch, warum
-        wir uns hier zusammengefunden haben.”
-        <br />
-        <br />
-        Der Älteste bittet euch ihm zu folgen. Ihr betretet eine Ruine mit
-        verschiedenen Wandmalereien. Der Älteste spricht zu euch: “Lasst mich
-        euch die Legende dieser Insel erzählen.”
-        <br />
-        <br />
-        Vor langer Zeit lebten die Bewohnenden der Insel in Harmonie. Doch dann
-        suchte eine Böse Antike Macht die Insel heim und wollte sie in
-        Finsternis und Chaos stürzen. Um die Insel vor dem Untergang zu
-        bewahren, wurden vier Artefakte von den Göttern des Lichts auf die Insel
-        herabgesandt. Vier heilige Gegenstände mit der Macht des Wassers, der
-        Erde, des Feuers und der Luft. Die Böse Antike Macht wurde mit Hilfe
-        dieser vier heiligen Artefakte bekämpft und in eine andere Dimension
-        verbannt. Seitdem werden die vier Artefakte an verschiedenen Orten auf
-        der Insel aufbewahrt, um das Gleichgewicht der Insel aufrecht erhalten
-        und das dortige Leben vor einer erneuten Bedrohung der Bösen Antiken
-        Macht zu beschützen.
-        <br />
-        <br />
-        “Seit geraumer Zeit wird unsere Insel von mehreren Naturphänomenen
-        heimgesucht. Das Wasser hört auf zu fließen, die Bäume verlieren langsam
-        ihre Lebenskraft, ein Vulkan droht auszubrechen und der Wind hört auf zu
-        wehen… Ich befürchte, dass die vier heiligen Artefakte allmählich ihre
-        Kraft verlieren, das Gleichgewicht und somit das harmonische Leben auf
-        der Insel aufrecht zu halten.”, schildert euch der Älteste.
-        <br />
-        <br />
-        Die Inselbewohnenden sind besorgt, dass die Böse Antike Macht bald
-        wiederkehrt und die Insel erneut in den Abgrund reißen wird. Jedoch
-        erzählt euch der Älteste auch von einer Prophezeiung, die nur den
-        Wenigsten bekannt ist: “Einer Sage zufolge, sollten die vier Artefakte
-        langsam ihre Macht verlieren, werden Reisende mit reinen Herzen aus
-        einer anderen Welt durch die Götter des Lichts auf die Insel gesandt, um
-        die Macht wiederherzustellen. Ich denke, dass es sich dabei um euch
-        handeln muss. Ihr seid die Auserwählten, die die Insel vor einem
-        erneuten Unheil bewahren. Deshalb bitte ich euch, im Namen der
-        Fischmenschen und allen anderen Bewohnenden der Insel, helft uns dabei,
-        unsere geliebte Insel vor dem Untergang zu retten!”
-        <br />
-        <br />
-        Ihr erklärt euch bereit, zu den vier Artefakten zu reisen und den
-        hilfesuchenden Inselbewohnenden dabei zu helfen, die Kräfte der
-        Artefakte wiederherzustellen. Der Älteste freut sich zutiefst über eure
-        Entscheidung: “Vielen vielen Dank! Es gibt wieder Hoffnung für unsere
-        Insel! Das Artefakt des Wassers ist in einem versunkenen Tempel
-        innerhalb des Sees versteckt, wo sich unsere Siedlung befindet. Wir
-        werden euch mit allen Mitteln auf eure Reise dorthin unterstützen.”
-        <br />
-        <br />
-        Zurück in der Siedlung begebt ihr euch mit den Fischmenschen ins See.
-        Auf deren Rücken taucht ihr ins tiefblaue Wasser hinab. Auf wundersame
-        Weise bildet sich eine Luftblase um euren Köpfen, sodass ihr Unterwasser
-        atmen könnt. Gemeinsam seid ihr auf der Suche nach dem Versunkenen
-        Tempel, wo sich das erste Artefakt versteckt.
-        <br />
-        <Divider />
-        <br />
-        Um zu dem Versunkenen Tempel zu gelangen, schwimmt ihr gemeinsam mit den
-        Fischmenschen durch einen Schwarm Haie. Die Haie tun euch nichts, denn
-        sie erkennen die Fischmenschen und sind euch freundlich gesonnen. Aber
-        leider können sie euch selber nicht sagen, wo sich der Versunkene Tempel
-        mit dem Artefakt genau befindet. Nur ein kleines Wesen, was sich
-        zwischen den Haien versteckt, kann euch den Weg dorthin zeigen.
-        <Map
-          src="img/1_3.png"
-          style={{ alignSelf: "center", margin: "2rem 0" }}
-        />
+        Ich war Neugiereig was es damit auf sich hat…
       </Riddle>
       <Riddle
         index={4}
         chapter={1}
-        heading="Das Artefakt des Wassers"
-        question="Lösungswort gibt es gegen Vorlage der Lösung im Infocafe (Im Club oder via Mail)"
-        answer="Aqua"
+        heading="Der Mythos II"
+        question="Welcher Himmelkörper repräsentiert die Mond?"
+        choices={[
+          ["Der Mond", "Das Ego"],
+          ["Der Mond", "Rebellion, Freiheit, Kreativität"],
+          ["Der Mond", "Das Hier und Jetzt"],
+          ["Der Mond", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Der Mond",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Der Mond", "Emotionen"],
+          ["Der Mond", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Der Mond", "Kommunikation, Logik, Verstand"],
+
+          ["Der Mond", "Karma, Disziplin, Ordnung"],
+
+          ["Der Mond", "Intuition, Träume, Illusion"],
+          ["Der Mond", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[5]}
       >
-        Zwischen den Haien entdeckt ihr ein kleines Seepferdchen. Daraufhin
-        schwimmt es plötzlich weg, ihr versucht es hinterher zu jagen. Nachdem
-        ihr das kleine flinke Seepferdchen eine Weile lang verfolgt habt, seht
-        ihr im Meeresgrund den Versunkenen Tempel. Gemeinsam mit den
-        Fischmenschen betretet ihr den Tempel, welches überraschenderweise innen
-        trocken und mit Luft befüllt ist, und erkundet die verwinkelten Gänge.
-        Hellblau leuchtende Kristalle zieren die Wände und leuchten euch den
-        Weg.
+        <br />
+        Die Sonne:
+        <br />
+        Das Ego
         <br />
         <br />
-        Nach einiger Zeit findet ihr euch vor einem riesigen steinernen Tor.
-        Befindet sich das Artefakt des Wassers dahinter? Zusammen mit den
-        Fischmenschen drückt ihr gegen das Tor und versucht es aufzukriegen.
-        Stück für Stück bewegt es sich, bis ihr es schafft, es komplett zu
-        öffnen.
+        <div style={{ fontSize: 100 }}>☉</div>
         <br />
-        <br />
-        Ihr betretet den Raum und findet vor euch ein Altar. Darauf befindet
-        sich ein Stab, welches in einem schwachen blauen Leuchten umhüllt ist.
-        Das muss das heilige Artefakt des Wassers sein! Ihr hab’s tatsächlich
-        gefunden! Doch ihr fragt euch, wie ihr seine Kraft wiederherstellen
-        könnt. Die Fischmenschen sind leider auch überfragt und können euch
-        nicht weiterhelfen. Ihr probiert anschließend den Stab anzufassen.
-        Plötzlich blitzt ein hellblaues Licht auf, welches der ganzen Raum
-        umgibt. Vor eurem geistigen Auge seht ihr eine Aufgabe, die es zu lösen
-        gilt.
-        <br />
-        <Divider />
-        Damit das Artefakt des Wasser wieder zu seiner ursprünglichen Kraft
-        kommt, müsst ihr folgendes Rätsel lösen:
-        <br />
-        <br />
-        Ihr seht vor euch mehrere Wasserstoffatome (H). Eure Aufgabe liegt
-        darin, jeweils zwei Wasserstoffatome (H) mit einem Sauerstoffatom (O) zu
-        verbinden (H-O-H). Dabei dürfen die Sauerstoffatome (O) auf dem Feld
-        nicht benachbart sein, auch nicht diagonal. Zudem lassen sich die
-        Wasserstoffatome (H) nur senkrecht oder waagerecht mit einem
-        Sauerstoffatom (O) verbinden.
-        <br />
-        <br />
-        Insgesamt sind 10 Sauerstoffatome (O) zu setzen, um das Rätsel zu lösen.
-        Auf welchen Feldern (A1, A2, …) müssen sie sich alle befinden? Schickt
-        uns euren Lösungsvorschlag (E-Mail) und bei richtiger Antwort bekommt
-        ihr von uns ein Lösungswort, um euer Abenteuer fortzuführen.
-        <br />
-        <Map
-          src="img/1_4.png"
-          style={{ alignSelf: "center", margin: "2rem 0" }}
-        />
+        Und für was steht der Mond?
       </Riddle>
-      <Riddle chapter={1} index={5} epilog>
-        Ihr habt es geschafft! Das Artefakt des Wasser hat seine voll Kraft
-        wiedererlangt. Der Stab beginnt in einem tiefblauen Schein zu leuchten.
-        An den Wänden des Raums beginnen Wasserfälle zu fließen und vom Boden
-        schießt Wasser in die Höhe wie Springbrunnen. Die Fischmenschen jubeln
-        zu eurem Erfolg. Gemeinsam verlasst ihr den Versunkenen Tempel und macht
-        euch wieder auf dem Weg zurück zur Siedlung. Dort angekommen berichtet
-        ihr dem Ältesten von eurem Abenteuer. “Ich danke euch von tiefsten
-        Herzen, Reisende! Das Artefakt des Wassers erstrahlt wieder in voller
-        Glanz.”
+      <Riddle
+        index={5}
+        chapter={1}
+        heading="Der Mythos III"
+        question="Welcher Himmelkörper repräsentiert Merkur?"
+        choices={[
+          ["Merkur", "Das Ego"],
+          ["Merkur", "Rebellion, Freiheit, Kreativität"],
+          ["Merkur", "Das Hier und Jetzt"],
+          ["Merkur", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Merkur",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Merkur", "Emotionen"],
+          ["Merkur", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Merkur", "Kommunikation, Logik, Verstand"],
+
+          ["Merkur", "Karma, Disziplin, Ordnung"],
+
+          ["Merkur", "Intuition, Träume, Illusion"],
+          ["Merkur", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[7]}
+      >
+        <br />
+        Der Mond:
+        <br />
+        Emotionen
         <br />
         <br />
-        Doch eure Reise ist noch nicht zu Ende. Es warten drei weitere Artefakte
-        auf euch, deren Kraft wiederhergestellt werden müssen. Der Älteste
-        erklärt euch, wo ihr als nächstes hin müsst: “Folgt dem Fluss Richtung
-        Westen. Er wird euch zu einem Wald führen, in der sich das Dorf der
-        Elfen befindet. Die Elfen werden euch sicherlich weiterhelfen können,
-        wie ihr zum Artefakt der Erde gelangen könnt.”
+        <div style={{ fontSize: 100 }}>☽</div>
+        <br />
+        Und für was steht der Merkur?
+      </Riddle>
+      <Riddle
+        index={6}
+        chapter={1}
+        heading="Der Mythos IV"
+        question="Welcher Himmelkörper repräsentiert Venus?"
+        choices={[
+          ["Venus", "Das Ego"],
+          ["Venus", "Rebellion, Freiheit, Kreativität"],
+          ["Venus", "Das Hier und Jetzt"],
+          ["Venus", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Venus",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Venus", "Emotionen"],
+          ["Venus", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Venus", "Kommunikation, Logik, Verstand"],
+
+          ["Venus", "Karma, Disziplin, Ordnung"],
+
+          ["Venus", "Intuition, Träume, Illusion"],
+          ["Venus", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[3]}
+      >
+        <br />
+        Der Merkur:
+        <br />
+        Kommunikation, Logik, Verstand
         <br />
         <br />
-        So verabschiedet ihr euch von den Fischmenschen und macht euch auf dem
-        Weg zu eurem nächsten Ziel. Fortsetzung folgt ...
-        <br />
-        <br /> Das nächste Woche offenbart sich euch am
+        <div style={{ fontSize: 100 }}>☿</div>
         <br />
         <br />
-        <H4>02.08.2021</H4>
+        Und für was steht der Venus?
+      </Riddle>
+      <Riddle
+        index={7}
+        chapter={1}
+        heading="Der Mythos V"
+        question="Welcher Himmelkörper repräsentiert Erde?"
+        choices={[
+          ["Erde", "Das Ego"],
+          ["Erde", "Rebellion, Freiheit, Kreativität"],
+          ["Erde", "Das Hier und Jetzt"],
+          ["Erde", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Erde",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Erde", "Emotionen"],
+          ["Erde", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Erde", "Kommunikation, Logik, Verstand"],
+
+          ["Erde", "Karma, Disziplin, Ordnung"],
+
+          ["Erde", "Intuition, Träume, Illusion"],
+          ["Erde", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[2]}
+      >
+        <br />
+        Der Venus:
+        <br />
+        Liebe und Geld, Weiblichkeit
+        <br />
+        <br />
+        <div style={{ fontSize: 100 }}>♀</div>
+        <br />
+        <br />
+        Und für was steht der Erde?
+      </Riddle>
+      <Riddle
+        index={8}
+        chapter={1}
+        heading="Der Mythos VI"
+        question="Welcher Himmelkörper repräsentiert Mars?"
+        choices={[
+          ["Mars", "Das Ego"],
+          ["Mars", "Rebellion, Freiheit, Kreativität"],
+          ["Mars", "Das Hier und Jetzt"],
+          ["Mars", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Mars",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Mars", "Emotionen"],
+          ["Mars", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Mars", "Kommunikation, Logik, Verstand"],
+
+          ["Mars", "Karma, Disziplin, Ordnung"],
+
+          ["Mars", "Intuition, Träume, Illusion"],
+          ["Mars", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[6]}
+      >
+        <br />
+        Der Erde:
+        <br />
+        Das Hier und Jetzt,
+        <br />
+        Die Erde findet leider keinen Platz in Astrologie
+        <br />
+        Aber sie ist der einzige Ort den wir wirklich haben
+        <br />
+        <br />
+        <br />
+        <div style={{ fontSize: 100 }}>♁</div>
+        <br />
+        <br />
+        Und für was steht der Mars?
+      </Riddle>
+      <Riddle
+        index={9}
+        chapter={1}
+        heading="Der Mythos VII"
+        question="Welcher Himmelkörper repräsentiert Jupiter?"
+        choices={[
+          ["Jupiter", "Das Ego"],
+          ["Jupiter", "Rebellion, Freiheit, Kreativität"],
+          ["Jupiter", "Das Hier und Jetzt"],
+          ["Jupiter", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Jupiter",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Jupiter", "Emotionen"],
+          ["Jupiter", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Jupiter", "Kommunikation, Logik, Verstand"],
+
+          ["Jupiter", "Karma, Disziplin, Ordnung"],
+
+          ["Jupiter", "Intuition, Träume, Illusion"],
+          ["Jupiter", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[10]}
+      >
+        <br />
+        Der Mars:
+        <br />
+        Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit
+        <br />
+        <br />
+        <br />
+        <div style={{ fontSize: 100 }}>♂</div>
+        <br />
+        <br />
+        Und für was steht der Jupiter?
+      </Riddle>
+      <Riddle
+        index={10}
+        chapter={1}
+        heading="Der Mythos VIII"
+        question="Welcher Himmelkörper repräsentiert Saturn?"
+        choices={[
+          ["Saturn", "Das Ego"],
+          ["Saturn", "Rebellion, Freiheit, Kreativität"],
+          ["Saturn", "Das Hier und Jetzt"],
+          ["Saturn", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Saturn",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Saturn", "Emotionen"],
+          ["Saturn", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Saturn", "Kommunikation, Logik, Verstand"],
+
+          ["Saturn", "Karma, Disziplin, Ordnung"],
+
+          ["Saturn", "Intuition, Träume, Illusion"],
+          ["Saturn", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[8]}
+      >
+        <br />
+        Der Jupiter:
+        <br />
+        Glück, Fülle, Glaube
+        <br />
+        <br />
+        <br />
+        <div style={{ fontSize: 100 }}>♃</div>
+        <br />
+        <br />
+        Und für was steht der Saturn?
+      </Riddle>
+      <Riddle
+        index={11}
+        chapter={1}
+        heading="Der Mythos IX"
+        question="Welcher Himmelkörper repräsentiert Uranus?"
+        choices={[
+          ["Uranus", "Das Ego"],
+          ["Uranus", "Rebellion, Freiheit, Kreativität"],
+          ["Uranus", "Das Hier und Jetzt"],
+          ["Uranus", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Uranus",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Uranus", "Emotionen"],
+          ["Uranus", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Uranus", "Kommunikation, Logik, Verstand"],
+
+          ["Uranus", "Karma, Disziplin, Ordnung"],
+
+          ["Uranus", "Intuition, Träume, Illusion"],
+          ["Uranus", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[1]}
+      >
+        <br />
+        Der Saturn:
+        <br />
+        <img style={{ width: "10%" }} src="img/sailorsaturn.gif" />
+        Karma, Disziplin, Ordnung
+        <br />
+        <br />
+        <br />
+        <div style={{ fontSize: 100 }}>♄</div>
+        <br />
+        <br />
+        Und für was steht der Uranus?
+      </Riddle>
+      <Riddle
+        index={12}
+        chapter={1}
+        heading="Der Mythos X"
+        question="Welcher Himmelkörper repräsentiert Neuptun?"
+        choices={[
+          ["Neptun", "Das Ego"],
+          ["Neptun", "Rebellion, Freiheit, Kreativität"],
+          ["Neptun", "Das Hier und Jetzt"],
+          ["Neptun", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Neptun",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Neptun", "Emotionen"],
+          ["Neptun", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Neptun", "Kommunikation, Logik, Verstand"],
+
+          ["Neptun", "Karma, Disziplin, Ordnung"],
+
+          ["Neptun", "Intuition, Träume, Illusion"],
+          ["Neptun", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[9]}
+      >
+        <br />
+        Der Uranus:
+        <br />
+        Rebellion, Freiheit, Kreativität
+        <br />
+        <br />
+        <br />
+        <div style={{ fontSize: 100 }}>♅</div>
+        <br />
+        <br />
+        Und für was steht der Neptun?
+      </Riddle>
+      <Riddle
+        index={13}
+        chapter={1}
+        heading="Der Mythos XI"
+        question="Welcher Himmelkörper repräsentiert Neuptun?"
+        choices={[
+          ["Pluto", "Das Ego"],
+          ["Pluto", "Rebellion, Freiheit, Kreativität"],
+          ["Pluto", "Das Hier und Jetzt"],
+          ["Pluto", "Liebe und Geld, Weiblichkeit"],
+          [
+            "Pluto",
+            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
+          ],
+          ["Pluto", "Emotionen"],
+          ["Pluto", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          ["Pluto", "Kommunikation, Logik, Verstand"],
+
+          ["Pluto", "Karma, Disziplin, Ordnung"],
+
+          ["Pluto", "Intuition, Träume, Illusion"],
+          ["Pluto", "Glück, Fülle, Glaube"],
+        ]}
+        answer={[4]}
+      >
+        <br />
+        Der Neptun:
+        <br />
+        Intuition, Träume, Illusion
+        <br />
+        <br />
+        <br />
+        <div style={{ fontSize: 100 }}>♆</div>
+        <br />
+        <br />
+        Und für was steht der Pluto?
+      </Riddle>
+
+      <Riddle chapter={1} index={14} epilog>
+        <br />
+        Der Pluto:
+        <br />
+        Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution
+        <br />
+        <br />
+        <br />
+        <div style={{ fontSize: 100 }}>♇</div>
+        <br />
+        <br />
+        Dabei ist der Pluto nichtmal ein "echter" Planet...
+        <br />
+        Ich muss das erstmal alles Verarbeiten und nächste Woche geht es
+        wissenschaftlich weiter...
+        <br />
+        <H4>08.08.2022</H4>
       </Riddle>
       <BackToHome />
     </Parchment>
