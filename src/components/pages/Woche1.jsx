@@ -8,6 +8,7 @@ import { H4 } from "../atoms/H4";
 import { Link } from "react-router-dom";
 import { BackToHome } from "../atoms/BackToHome";
 import styled from "styled-components";
+import { Image } from "../molecules/Image";
 
 export const Woche1 = () => {
   return (
@@ -45,7 +46,7 @@ export const Woche1 = () => {
         index={2}
         chapter={1}
         heading="Andere Dimensionen"
-        question="Wo ist der Merkur; Planet der Kommunikations, des Wissens und des Verstandes?"
+        question="An welchem Ort ist der Merkur?"
         answer="Atlantis"
       >
         Sie erzählten mir dass Herzen der Stadt ist wie die Sonne. Wenn das so ist, dann wäre das infocafe wohl die Erde.
@@ -54,22 +55,17 @@ export const Woche1 = () => {
         Ich muss anderen dimensionen Denken um zu finden was ich Suche.
         <br />
         In völlig anderen Größenordungen.
+        <br />
+        <br />
+        An welchem Ort ist der Merkur; Planet der Kommunikations, des Wissens und des Verstandes?
 
         
-        <Map
+        <Image
           src="img/oortsche.jpg"
-          style={{ alignSelf: "center", margin: "1rem 0" }}
+          style={{ alignSelf: "center", margin: "1rem 0", width:"100%" }}
+          text="Bildrechte: ESA"
         />
-        Ihr startet am West Clubhaus im Südwesten. Von dort wandert ihr nach
-        Süden bis zur 804. Straße. Der Straße folgt ihr nach Osten, bis ihr das
-        Tal der Sonne erreicht. Vom Tal der Sonne wandert ihr Richtung
-        Nordosten, bis zu den Flüsternden Kiefern. Dann biegt ihr dort wieder
-        Richtung Südosten ab, bis hin zur Hochschule. Von der Schule aus folgt
-        ihr dem Fluss Richtung Osten bis zur 95. Straße. Auf dieser Straße
-        wandert ihr nach Norden, so lange bis ihr auf die Südwinde stößt. Von
-        dort aus biegt ihr nach Westen und kommt an bei der begrünten Verlorenen
-        Stadt an. Dort begebt ihr euch auf der Suche nach dem Antiken Reich, wo
-        ich auf euch warte.
+        
       </Riddle>
       <Riddle
         index={3}
