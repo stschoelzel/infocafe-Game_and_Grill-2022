@@ -42,7 +42,7 @@ export const Woche1 = () => {
           "Saturn",
           "Uranus",
           "Neptun",
-          "Kupiergürtel",
+          "Kuipergürtel",
           "Oortsche Wolke",
         ]}
       >
