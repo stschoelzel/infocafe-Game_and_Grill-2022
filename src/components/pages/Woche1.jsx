@@ -12,141 +12,53 @@ import styled from "styled-components";
 export const Woche1 = () => {
   return (
     <Parchment>
-      <H1>Woche 1 - Wasser</H1>
+      <H1>Woche 1 - Perspektivenwechsel</H1>
       <img
-        src="img/water.png"
+        src="img/solarSystem.jpg"
         style={{
           height: "100%",
           width: "100%",
         }}
       />
       <Riddle index={1} chapter={1} prolog>
-        Ein sonniger Tag, erfrischende Meeresbrisen wehen durch das Deck und ihr
-        blickt zum Horizont, wo der klare Himmel auf das tiefblaue Wasser
-        trifft. Tagträumend genießt ihr diesen wundervollen Anblick von Freiheit
-        und lauscht dabei den rauschenden Klängen des Meeres.
+        Intro Text
         <br />
-        <br />
-        Gedankenversunken bemerkt ihr nicht, dass euer Segelschiff zum
-        Stillstand geraten ist. Der Wind hat aufgehört zu wehen, das Meer hat
-        aufgehört Wellen zu schlagen. Ein leichter Nebel kommt langsam auf und
-        umhüllt das Schiff. Euch wird plötzlich klar, dass hier etwas nicht
-        stimmt. Doch wisst ihr auch nicht, wie ihr aus dieser Situation
-        herauskommt, denn der Nebel hat sich mittlerweile mehr und mehr
-        verdichtet, sodass ihr eure Umgebung nicht mehr sehen könnt. Ihr stellt
-        fest, dass euer Schiff im Nebel in eine bestimmte Richtung getrieben
-        wird.
-        <br />
-        <br />
-        Ohne zu wissen, was hier gerade geschieht, könnt ihr nichts anderes tun,
-        als zu warten und zu hoffen, dass es zu keinem Unheil kommt. Nach
-        einiger Zeit nehmt ihr in der Ferne des Nebels eine riesige schwarze
-        Silhouette wahr, die immer und immer größer wird. Es scheint so, als ob
-        ihr euch auf diesen Schatten langsam zubewegt. Ist es ein Monster? Ein
-        Seeungeheuer? Besorgt versucht ihr zu erkennen, um was es sich dabei
-        handeln könnte. Und siehe da, langsam lassen sich Konturen und Farben
-        erkennen. Es handelt sich um eine Bucht und ihr steuert auf einen Strand
-        zu! Etwas erleichtert freut ihr euch darüber, dass Land in Sicht ist.
-        Doch wisst ihr immer noch nicht, wo ihr überhaupt seid.
-        <br />
-        <br />
-        Das Schiff strandet an der Bucht. Ihr springt auf’s Land, doch erkennt
-        ihr durch den dichten Nebel weit und breit nur Sand und vereinzelte
-        Gesteine. Etwas orientierungslos versucht ihr euch in der neuen Gegend
-        zurecht zu finden und nach Hinweisen zu suchen. Und nach einiger Zeit
-        Herumirren werdet ihr tatsächlich fündig. Ihr steht vor einer Steintafel
-        worauf etwas geschrieben steht. Zudem weist die Tafel ein Relief auf,
-        welches anscheinend etwas darstellen sollen. Was könnte es bloß sein?
+        Den Blick nach oben gerichtet...
       </Riddle>
       <Riddle
         index={1}
         chapter={1}
-        heading="Gestrandet im Nebel"
-        question="Welchen Ort zeigt dir die Steintafel?"
-        answer="Juist"
+        heading="Den Blick nach oben gerichtet..."
+        question="Meine Vorfahren erklärten mir an jeder Sommersonnenwende unsere natürliche kosmische Ordnung."
+        template="_, _, _, _, _, _, _, _, _, _, _"
+        answer={["Merkur", "Venus", "Erde", "Mars", "Asteroidengürtel", "Jupiter", "Saturn", "Uranus", "Neptun", "Kupiergürtel", "Oorsche Wolke"]}
       >
-        Auf der Steintafel steht etwas geschrieben:
+        Ich ließ meine Gedanken scheifen und erinnerte mich:
         <br />
         <br />
-        Im Norden baden die sieben Schwestern im Wattenmeer. Eine
-        unterschiedlicher als die andere, besitzt jede ihren ganz eigenen
-        Charme. Doch gesucht ist der Name von der Schwester, die am längsten
-        ist.
+        Meine Vorfahren erklärten mir an jeder Sommersonnenwende unsere natürliche kosmische Ordnung.
         <br />
         <br />
-        Ihr erkennt ein Relief, doch was soll dieses wohl darstellen? Handelt es
-        sich dabei um einen Hinweis?
-        <br />
-        <br />
-        <Map
-          src="img/1_1.jpg"
-          style={{ alignSelf: "center", margin: "2rem 0" }}
-        />
-        <br />
-        <br />
-        Die Form kommt euch etwas bekannt vor... Ganz dunkel erinnert ihr euch,
-        dass ihr dieses Muster schon mal in der Welt, in der ihr lebt, gesehen
-        habt. Und der Ort, wo die sieben Schwestern angeblich schwimmen, ist
-        euch auch nicht ganz unbekannt... Vielleicht hilft ja ein Blick auf eine
-        Karte?
+        
       </Riddle>
       <Riddle
         index={2}
         chapter={1}
-        heading="Eine Siedlung voller Fische"
-        question="Wo erwartet euch der Älteste der Fischmenschen?"
+        heading="Andere Dimensionen"
+        question="Wo ist der Merkur; Planet der Kommunikations, des Wissens und des Verstandes?"
         answer="Atlantis"
       >
-        Nachdem ihr vor der Steintafel das richtige Lösungswort ausgesprochen
-        habt, beginnt ein Teil des Reliefs zu leuchten. Neugierig berührt ihr
-        die leuchtende Stelle und plötzlich blitzt ein gleißendes Licht auf,
-        welches euch kurzzeitig blendet. Langsam beginnt ihr wieder klarer zu
-        sehen und ihr stellt fest, dass der Nebel komplett verschwunden ist.
-        <br />
-        Ihr blickt um euch herum und findet euch auf einer wunderschönen Bucht
-        wieder, umringt von majestätischen Hügeln. Das Meer schimmert so blau
-        wie der Himmel und die Sonne strahlt wärmend auf euch herab. Anscheinend
-        seid ihr auf einer riesengroßen Insel gelandet. Ihr erkundet die Gegend
-        und entdeckt einen Weg, der über einen Hügel in die Insel rein führt.
-        Ihr folgt diesem Weg in der Hoffnung, jemanden zu finden, der euch
-        helfen kann.
+        Sie erzählten mir dass Herzen der Stadt ist wie die Sonne. Wenn das so ist, dann wäre das infocafe wohl die Erde.
         <br />
         <br />
-        Als ihr euch mitten auf dem Hügel befindet, könnt ihr über eine riesige
-        und wunderschöne Landschaft blicken. Ihr seht in der Ferne einen großen
-        See und am Rande des Sees eine kleine Siedlung in der Nähe. Vielleicht
-        begegnet ihr dort Leute, die euch helfen könnten? Ihr macht euch auf dem
-        Weg zur Siedlung.
+        Ich muss anderen dimensionen Denken um zu finden was ich Suche.
         <br />
-        <br />
-        Als ihr in der Siedlung ankommt, stellt ihr fest, dass sie von
-        Fischmenschen bewohnt wird. Einige von denen bemerken euch und rufen
-        etwas misstrauisch: “Hey! Wer seid ihr? Was wollt ihr hier?” Ihr
-        versucht eure Situation zu schildern, dass ihr nicht wisst, wo ihr seid
-        und versucht nach Hilfe sucht. Noch etwas verunsichert antwortet einer
-        der Fischmenschen: “Okay. Es sieht wohl so aus, als ob ihr in einer
-        komplizierten Lage steckt. Vielleicht kann euch unser Ältester
-        weiterhelfen.” Er zeigt auf eine Hütte im hinteren Teil der Siedlung,
-        dort sollt ihr hin.
-        <br />
-        <br />
-        Bei der Hütte angekommen klopft ihr gegen die Tür. Es macht euch ein
-        älterer Fischmensch auf: “Ihr seid also die Fremden, die hier in unserer
-        Siedlung umher streifen. Es hat sich schnell herumgesprochen. Ihr sucht
-        meine Hilfe?” Ihr erklärt dem Ältesten, was passiert ist. Er entgegnet
-        euch: “Ich verstehe eure Situation. Damit ich euch weiterhelfen kann,
-        müsst ihr erst ein Test bestehen. Bitte entschuldigt mein Misstrauen,
-        die Insel steht momentan unter einem schlechten Omen. Ich muss
-        sichergehen können, dass die Siedlung euch vertrauen kann.” Ihr willigt
-        darauf ein.
-        <br />
-        <Divider />
-        <br />
-        Der Älteste der Fischmenschen schickt euch auf eine kleine Wanderung.
-        Dabei bekommt ihr eine Karte mit einer Wegbeschreibung:
+        In völlig anderen Größenordungen.
+
+        
         <Map
-          src="img/1_2.png"
-          style={{ alignSelf: "center", margin: "2rem 0" }}
+          src="img/oortsche.jpg"
+          style={{ alignSelf: "center", margin: "1rem 0" }}
         />
         Ihr startet am West Clubhaus im Südwesten. Von dort wandert ihr nach
         Süden bis zur 804. Straße. Der Straße folgt ihr nach Osten, bis ihr das

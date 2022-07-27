@@ -22,7 +22,9 @@ export const Map = ({ src, style }) => {
     <Container style={style}>
       <div style={{ position: "absolute", height: "100%", width: "100%" }}>
         <PinchZoomPan position="center" zoomButtons={false}>
+          
           <img alt="Karte" src={src} />
+            
         </PinchZoomPan>
       </div>
     </Container>
