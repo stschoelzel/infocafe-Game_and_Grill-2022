@@ -59,7 +59,7 @@ export const Woche1 = () => {
         chapter={1}
         heading="Andere Dimensionen"
         question="An welchem Ort ist der Merkur?"
-        template="_ Tipp ist X-Y-Z"
+        template="_ (Tipp: X-Y-Z)"
         answer="Brüder-Grimm-Schule"
       >
         Sie erzählten mir dass Herzen der Stadt ist wie die Sonne. Wenn das so
@@ -84,25 +84,22 @@ export const Woche1 = () => {
         heading="Der Mythos I"
         question="Welcher Himmelkörper repräsentiert die Sonne?"
         choices={[
-          ["Die Sonne", "Das Ego"],
-          ["Die Sonne", "Rebellion, Freiheit, Kreativität"],
-          ["Die Sonne", "Das Hier und Jetzt"],
-          ["Die Sonne", "Liebe und Geld, Weiblichkeit"],
+          ["", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Die Sonne",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Die Sonne", "Emotionen"],
-          [
-            "Die Sonne",
-            "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit",
-          ],
-          ["Die Sonne", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Die Sonne", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Die Sonne", "Intuition, Träume, Illusion"],
-          ["Die Sonne", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[0]}
       >
@@ -114,27 +111,27 @@ export const Woche1 = () => {
         heading="Der Mythos II"
         question="Welcher Himmelkörper repräsentiert die Mond?"
         choices={[
-          ["Der Mond", "Das Ego"],
-          ["Der Mond", "Rebellion, Freiheit, Kreativität"],
-          ["Der Mond", "Das Hier und Jetzt"],
-          ["Der Mond", "Liebe und Geld, Weiblichkeit"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Der Mond",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Der Mond", "Emotionen"],
-          ["Der Mond", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Der Mond", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Der Mond", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Der Mond", "Intuition, Träume, Illusion"],
-          ["Der Mond", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[5]}
       >
         <br />
-        Die Sonne:
+        :
         <br />
         Das Ego
         <br />
@@ -149,27 +146,24 @@ export const Woche1 = () => {
         heading="Der Mythos III"
         question="Welcher Himmelkörper repräsentiert Merkur?"
         choices={[
-          ["Merkur", "Das Ego"],
-          ["Merkur", "Rebellion, Freiheit, Kreativität"],
-          ["Merkur", "Das Hier und Jetzt"],
-          ["Merkur", "Liebe und Geld, Weiblichkeit"],
-          [
-            "Merkur",
-            "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
-          ],
-          ["Merkur", "Emotionen"],
-          ["Merkur", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Merkur", "Kommunikation, Logik, Verstand"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
+          [" ", " , Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Merkur", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Merkur", "Intuition, Träume, Illusion"],
-          ["Merkur", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[7]}
       >
         <br />
-        Der Mond:
+        :
         <br />
         Emotionen
         <br />
@@ -184,22 +178,22 @@ export const Woche1 = () => {
         heading="Der Mythos IV"
         question="Welcher Himmelkörper repräsentiert Venus?"
         choices={[
-          ["Venus", "Das Ego"],
-          ["Venus", "Rebellion, Freiheit, Kreativität"],
-          ["Venus", "Das Hier und Jetzt"],
-          ["Venus", "Liebe und Geld, Weiblichkeit"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Venus",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Venus", "Emotionen"],
-          ["Venus", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Venus", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Venus", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Venus", "Intuition, Träume, Illusion"],
-          ["Venus", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[3]}
       >
@@ -220,22 +214,22 @@ export const Woche1 = () => {
         heading="Der Mythos V"
         question="Welcher Himmelkörper repräsentiert Erde?"
         choices={[
-          ["Erde", "Das Ego"],
-          ["Erde", "Rebellion, Freiheit, Kreativität"],
-          ["Erde", "Das Hier und Jetzt"],
-          ["Erde", "Liebe und Geld, Weiblichkeit"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Erde",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Erde", "Emotionen"],
-          ["Erde", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Erde", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Erde", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Erde", "Intuition, Träume, Illusion"],
-          ["Erde", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[2]}
       >
@@ -256,22 +250,22 @@ export const Woche1 = () => {
         heading="Der Mythos VI"
         question="Welcher Himmelkörper repräsentiert Mars?"
         choices={[
-          ["Mars", "Das Ego"],
-          ["Mars", "Rebellion, Freiheit, Kreativität"],
-          ["Mars", "Das Hier und Jetzt"],
-          ["Mars", "Liebe und Geld, Weiblichkeit"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Mars",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Mars", "Emotionen"],
-          ["Mars", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Mars", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Mars", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Mars", "Intuition, Träume, Illusion"],
-          ["Mars", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[6]}
       >
@@ -297,22 +291,22 @@ export const Woche1 = () => {
         heading="Der Mythos VII"
         question="Welcher Himmelkörper repräsentiert Jupiter?"
         choices={[
-          ["Jupiter", "Das Ego"],
-          ["Jupiter", "Rebellion, Freiheit, Kreativität"],
-          ["Jupiter", "Das Hier und Jetzt"],
-          ["Jupiter", "Liebe und Geld, Weiblichkeit"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Jupiter",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Jupiter", "Emotionen"],
-          ["Jupiter", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Jupiter", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Jupiter", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Jupiter", "Intuition, Träume, Illusion"],
-          ["Jupiter", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[10]}
       >
@@ -334,22 +328,22 @@ export const Woche1 = () => {
         heading="Der Mythos VIII"
         question="Welcher Himmelkörper repräsentiert Saturn?"
         choices={[
-          ["Saturn", "Das Ego"],
-          ["Saturn", "Rebellion, Freiheit, Kreativität"],
-          ["Saturn", "Das Hier und Jetzt"],
-          ["Saturn", "Liebe und Geld, Weiblichkeit"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Saturn",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Saturn", "Emotionen"],
-          ["Saturn", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Saturn", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Saturn", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Saturn", "Intuition, Träume, Illusion"],
-          ["Saturn", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[8]}
       >
@@ -371,22 +365,22 @@ export const Woche1 = () => {
         heading="Der Mythos IX"
         question="Welcher Himmelkörper repräsentiert Uranus?"
         choices={[
-          ["Uranus", "Das Ego"],
-          ["Uranus", "Rebellion, Freiheit, Kreativität"],
-          ["Uranus", "Das Hier und Jetzt"],
-          ["Uranus", "Liebe und Geld, Weiblichkeit"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Uranus",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Uranus", "Emotionen"],
-          ["Uranus", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Uranus", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Uranus", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Uranus", "Intuition, Träume, Illusion"],
-          ["Uranus", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[1]}
       >
@@ -409,22 +403,22 @@ export const Woche1 = () => {
         heading="Der Mythos X"
         question="Welcher Himmelkörper repräsentiert Neuptun?"
         choices={[
-          ["Neptun", "Das Ego"],
-          ["Neptun", "Rebellion, Freiheit, Kreativität"],
-          ["Neptun", "Das Hier und Jetzt"],
-          ["Neptun", "Liebe und Geld, Weiblichkeit"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Neptun",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Neptun", "Emotionen"],
-          ["Neptun", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Neptun", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Neptun", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Neptun", "Intuition, Träume, Illusion"],
-          ["Neptun", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[9]}
       >
@@ -446,22 +440,22 @@ export const Woche1 = () => {
         heading="Der Mythos XI"
         question="Welcher Himmelkörper repräsentiert Neuptun?"
         choices={[
-          ["Pluto", "Das Ego"],
-          ["Pluto", "Rebellion, Freiheit, Kreativität"],
-          ["Pluto", "Das Hier und Jetzt"],
-          ["Pluto", "Liebe und Geld, Weiblichkeit"],
+          [" ", "Das Ego"],
+          [" ", "Rebellion, Freiheit, Kreativität"],
+          [" ", "Das Hier und Jetzt"],
+          [" ", "Liebe und Geld, Weiblichkeit"],
           [
-            "Pluto",
+            " ",
             "Macht, Gut und Böse, Tod/Zerstörung und Wiedergeburt, Evolution",
           ],
-          ["Pluto", "Emotionen"],
-          ["Pluto", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
-          ["Pluto", "Kommunikation, Logik, Verstand"],
+          [" ", "Emotionen"],
+          [" ", "Leidenschaft, Antrieb, Entschlossenheit, Männlichkeit"],
+          [" ", "Kommunikation, Logik, Verstand"],
 
-          ["Pluto", "Karma, Disziplin, Ordnung"],
+          [" ", "Karma, Disziplin, Ordnung"],
 
-          ["Pluto", "Intuition, Träume, Illusion"],
-          ["Pluto", "Glück, Fülle, Glaube"],
+          [" ", "Intuition, Träume, Illusion"],
+          [" ", "Glück, Fülle, Glaube"],
         ]}
         answer={[4]}
       >

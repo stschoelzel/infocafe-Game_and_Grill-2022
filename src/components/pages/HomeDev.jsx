@@ -32,7 +32,7 @@ export const HomeDev = () => {
       </Story>
 
       <Divider />
-      <ConfiguredTableOfContents unlocked={unlocked} />
+      <ConfiguredTableOfContents unlocked={5} />
 
       <Divider />
       <H3>Allgemeine Infos</H3>
@@ -46,8 +46,8 @@ export const HomeDev = () => {
         </a>{" "}
         schreiben
       </p>
-
-      <H4>Was ihr braucht</H4>
+      <Divider />
+      <H4>Was ihr (vielleicht) braucht</H4>
       <DasBrauchtIhrIcons />
       <p>
         Solltet ihr keine mobile Internetverbindung haben, könnt ihr das
@@ -55,10 +55,9 @@ export const HomeDev = () => {
         Sportpark oder der Bibliothek.
       </p>
       <p>
-        Bitte denkt daran, dass die allgemeinen Corona-Hygieneregeln auch hier
-        gelten: tragt in geschlossenen Räumen einen Mund-Nasen-Schutz, haltet
-        Abstand, vermeidet Körperkontakt, wascht eure Hände und niest oder
-        hustet in die Armbeuge!
+        Wann ihr was braucht können wir euch noch nicht sagen. Aber denkt daran,
+        egal wo Ihr seid, auf euch aufzupassen und Rücksicht auf andere zu
+        nehmen. Danke!
       </p>
     </Parchment>
   );
