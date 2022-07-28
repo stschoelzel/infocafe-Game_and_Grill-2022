@@ -10,22 +10,24 @@ import { DasBrauchtIhrIcons } from "../molecules/DasBrauchtIhrIcons";
 import { ConfiguredTableOfContents } from "../organisms/ConfiguredTableOfContents";
 import { unlocked } from "../../config";
 
-
 export const Home = () => {
   return (
     <Parchment>
-      <Logo /> 
+      <Logo />
 
       <Story>
-        <div style={{ textDecoration: "none",   color: theme.primary, opactiy: 1 }}>
-        Die Sommerferien sind da und das diesjährige Game’n’Grill steht wieder
-        vor der Tür: Ein neues Abenteuer voller Rätsel, Spiel und Spaß beginnt!
-        <br />
-        <br />
-        Vier Wochen mit je Drei Aufgaben.
-        <br />
-        <br />
-        Die Spiele sind eröffnet!
+        <div
+          style={{ textDecoration: "none", color: theme.primary, opactiy: 1 }}
+        >
+          Die Sommerferien sind da und das diesjährige Game’n’Grill steht wieder
+          vor der Tür: Ein neues Abenteuer voller Rätsel, Spiel und Spaß
+          beginnt!
+          <br />
+          <br />
+          Vier Wochen mit je Drei Aufgaben.
+          <br />
+          <br />
+          Die Spiele sind eröffnet!
         </div>
       </Story>
 
@@ -37,7 +39,7 @@ export const Home = () => {
       <p style={{ marginBottom: "D" }}>
         Bei Rückfragen könnt ihr eine Email an{" "}
         <a
-          style={{ textDecoration: "none",  color: theme.primary, opactiy: 0.5 }}
+          style={{ textDecoration: "none", color: theme.primary, opactiy: 0.5 }}
           href="mailto:gng@infocafe.org"
         >
           GNG@infocafe.org

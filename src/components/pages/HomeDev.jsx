@@ -9,32 +9,40 @@ import { theme } from "../../theme";
 import { DasBrauchtIhrIcons } from "../molecules/DasBrauchtIhrIcons";
 import { ConfiguredTableOfContents } from "../organisms/ConfiguredTableOfContents";
 import { unlocked } from "../../config";
-import { Smaragd } from "../atoms/Smaragd";
-import { Schild } from "../atoms/Schild";
 
 export const HomeDev = () => {
   return (
     <Parchment>
       <Logo />
+
       <Story>
-        Wenn du diese Nachricht liest hast du bewiesen das du uns helfen kannst.
-        Irgendetwas stimmt nicht im Land und nur du kannst uns helfen! Wir
-        werden am 13.7. den ersten Hinweis geben können damit du herausfinden
-        kannst was passiert ist. Das hier ist übrigens ein magischer Brief der
-        seinen Inhalt ändern kann…
+        <div
+          style={{ textDecoration: "none", color: theme.primary, opactiy: 1 }}
+        >
+          Die Sommerferien sind da und das diesjährige Game’n’Grill steht wieder
+          vor der Tür: Ein neues Abenteuer voller Rätsel, Spiel und Spaß
+          beginnt!
+          <br />
+          <br />
+          Vier Wochen mit je Drei Aufgaben.
+          <br />
+          <br />
+          Die Spiele sind eröffnet!
+        </div>
       </Story>
 
       <Divider />
-      <ConfiguredTableOfContents unlocked={5} />
+      <ConfiguredTableOfContents unlocked={unlocked} />
+
       <Divider />
       <H3>Allgemeine Infos</H3>
-      <p style={{ marginBottom: "3rem" }}>
+      <p style={{ marginBottom: "D" }}>
         Bei Rückfragen könnt ihr eine Email an{" "}
         <a
           style={{ textDecoration: "none", color: theme.primary, opactiy: 0.5 }}
-          href="mailto:smaragd@infocafe.org"
+          href="mailto:gng@infocafe.org"
         >
-          smaragd@infocafe.org
+          GNG@infocafe.org
         </a>{" "}
         schreiben
       </p>
@@ -43,7 +51,7 @@ export const HomeDev = () => {
       <DasBrauchtIhrIcons />
       <p>
         Solltet ihr keine mobile Internetverbindung haben, könnt ihr das
-        öffentliche WLAN der Stadt Neu-Isenburg nutzen, zB am Marktplatz, dem
+        öffentliche wLan der Stadt Neu-Isenburg nutzen, zB am Marktplatz, dem
         Sportpark oder der Bibliothek.
       </p>
       <p>
