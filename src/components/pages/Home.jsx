@@ -24,7 +24,9 @@ export const Home = () => {
           beginnt!
           <br />
           <br />
-          Vier Wochen mit je Drei Aufgaben.
+          Vier Wochen mit je drei Aufgaben.
+          <br />
+          Und in der fünften Woche Grillen wir dann mit euch zusammen!
           <br />
           <br />
           Die Spiele sind eröffnet!
