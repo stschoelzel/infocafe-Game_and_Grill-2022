@@ -11,6 +11,7 @@ import { HomeDev } from "./components/pages/HomeDev";
 import { Woche2 } from "./components/pages/Woche2";
 import { Woche3 } from "./components/pages/Woche3";
 import { Woche4 } from "./components/pages/Woche4";
+import { Woche5 } from "./components/pages/Woche5";
 import { UnlockRiddle } from "./components/pages/UnlockRiddle";
 import { UnlockRiddle4_9 } from "./components/pages/UnlockRiddle4_9";
 
@@ -27,6 +28,7 @@ function App() {
                   <Route exact path="/Woche2" component={Woche2} />
                   <Route exact path="/Woche3" component={Woche3} />
                   <Route exact path="/Woche4" component={Woche4} />
+                  <Route exact path="/Woche5" component={Woche5} />
                   <Route exact path="/siegel/:id" component={UnlockRiddle4_9} />
                   <Route
                     exact

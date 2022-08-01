@@ -22,16 +22,22 @@ export const Woche1 = () => {
         }}
       />
       <Riddle index={1} chapter={1} prolog>
-        Intro Text
+        "Weit draußen in den unerforschten Einöden eines total aus der Mode
+        gekommenen Ausläufers des westlichen Spiralarms der Galaxis leuchtet
+        unbeachtet eine kleine gelbe Sonne. Um sie kreist in einer Entfernung
+        von ungefähr achtundneunzig Millionen Meilen ein absolut unbedeutender,
+        kleiner blaugrüner Planet, dessen vom Affen stammende Bioformen so
+        erstaunlich primitiv sind, daß sie Digitaluhren noch immer für eine
+        unwahrscheinlich tolle Erfindung halten."
         <br />
-        Den Blick nach oben gerichtet...
+        <br /> Douglas Adams
       </Riddle>
       <Riddle
         index={1}
         chapter={1}
         heading="Den Blick nach oben gerichtet..."
         question="Meine Vorfahren erklärten mir an jeder Sommersonnenwende unsere natürliche kosmische Ordnung."
-        template="_, _, _, _, _, _, _, _, _, _, _"
+        template=" _, _, _, _, _, _, _, _, _, _, _ Tipp: Groß- und Kleinschreibung beachten"
         answer={[
           "Merkur",
           "Venus",
@@ -62,27 +68,28 @@ export const Woche1 = () => {
         template="_ (Tipp: X-Y-Z)"
         answer="Brüder-Grimm-Schule"
       >
-        Sie erzählten mir dass Herzen der Stadt ist wie die Sonne. Wenn das so
-        ist, dann wäre das infocafe wohl die Erde.
+        <figure style={{ alignSelf: "center", margin: "2rem 0" }}>
+          <img style={{ width: "100%" }} src="img/oortsche.jpg" />
+          <figcaption style={{ fontSize: 10 }}>Bildrechte: ESA</figcaption>
+        </figure>
+        Sie erzählten mir, das Herz der Stadt sei wie die Sonne.
+        <br />
+        Wenn das so ist, dann wäre das infocafe wohl die Erde.
         <br />
         <br />
-        Ich muss anderen dimensionen Denken um zu finden was ich Suche.
+        Ich muss in anderen Dimensionen denken, um zu finden was ich suche.
         <br />
         In völlig anderen Größenordungen.
         <br />
         <br />
         An welchem Ort ist der Merkur; Planet der Kommunikations, des Wissens
         und des Verstandes?
-        <figure style={{ alignSelf: "center", margin: "2rem 0" }}>
-          <img style={{ width: "100%" }} src="img/oortsche.jpg" />
-          <figcaption style={{ fontSize: 10 }}>Bildrechte: ESA</figcaption>
-        </figure>
       </Riddle>
       <Riddle
         index={3}
         chapter={1}
         heading="Der Mythos I"
-        question="Welcher Himmelkörper repräsentiert die Sonne?"
+        question="Welche Eigenschaft repräsentiert die Sonne?"
         choices={[
           ["", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -103,13 +110,15 @@ export const Woche1 = () => {
         ]}
         answer={[0]}
       >
-        Ich war Neugiereig was es damit auf sich hat…
+        Scheinbar gibt es die Idee, jedem Himmelskörper eine Eigenschaft
+        zuzuschreiben. Ich glaube zwar nicht daran, dass die Sterne über mein
+        Leben bestimmen, aber irgendeine Macht haben sie schon...
       </Riddle>
       <Riddle
         index={4}
         chapter={1}
         heading="Der Mythos II"
-        question="Welcher Himmelkörper repräsentiert die Mond?"
+        question="Welche Eigenschaft repräsentiert der Mond?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -130,10 +139,10 @@ export const Woche1 = () => {
         ]}
         answer={[5]}
       >
-        <br />
-        :
+        Die Sonne:
         <br />
         Das Ego
+        <br />
         <br />
         <br />
         <div style={{ fontSize: 100 }}>☉</div>
@@ -144,7 +153,7 @@ export const Woche1 = () => {
         index={5}
         chapter={1}
         heading="Der Mythos III"
-        question="Welcher Himmelkörper repräsentiert Merkur?"
+        question="Welche Eigenschaften repräsentiert Merkur?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -162,10 +171,10 @@ export const Woche1 = () => {
         ]}
         answer={[7]}
       >
-        <br />
-        :
+        Der Mond:
         <br />
         Emotionen
+        <br />
         <br />
         <br />
         <div style={{ fontSize: 100 }}>☽</div>
@@ -176,7 +185,7 @@ export const Woche1 = () => {
         index={6}
         chapter={1}
         heading="Der Mythos IV"
-        question="Welcher Himmelkörper repräsentiert Venus?"
+        question="Welche Eigenschaften repräsentiert Venus?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -212,7 +221,7 @@ export const Woche1 = () => {
         index={7}
         chapter={1}
         heading="Der Mythos V"
-        question="Welcher Himmelkörper repräsentiert Erde?"
+        question="Welche Eigenschaften repräsentiert die Erde?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -234,7 +243,7 @@ export const Woche1 = () => {
         answer={[2]}
       >
         <br />
-        Der Venus:
+        Die Venus:
         <br />
         Liebe und Geld, Weiblichkeit
         <br />
@@ -242,13 +251,13 @@ export const Woche1 = () => {
         <div style={{ fontSize: 100 }}>♀</div>
         <br />
         <br />
-        Und für was steht der Erde?
+        Und für was steht die Erde?
       </Riddle>
       <Riddle
         index={8}
         chapter={1}
         heading="Der Mythos VI"
-        question="Welcher Himmelkörper repräsentiert Mars?"
+        question="Welche Eigenschaften repräsentiert Mars?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -270,13 +279,14 @@ export const Woche1 = () => {
         answer={[6]}
       >
         <br />
-        Der Erde:
+        Die Erde:
         <br />
         Das Hier und Jetzt,
         <br />
         Die Erde findet leider keinen Platz in Astrologie
         <br />
-        Aber sie ist der einzige Ort den wir wirklich haben
+        aber sie ist der einzige Ort, den wir haben, auf dem wir existieren
+        können.
         <br />
         <br />
         <br />
@@ -289,7 +299,7 @@ export const Woche1 = () => {
         index={9}
         chapter={1}
         heading="Der Mythos VII"
-        question="Welcher Himmelkörper repräsentiert Jupiter?"
+        question="Welche Eigenschaften repräsentiert Jupiter?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -326,7 +336,7 @@ export const Woche1 = () => {
         index={10}
         chapter={1}
         heading="Der Mythos VIII"
-        question="Welcher Himmelkörper repräsentiert Saturn?"
+        question="Welche Eigenschaften repräsentiert Saturn?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -363,7 +373,7 @@ export const Woche1 = () => {
         index={11}
         chapter={1}
         heading="Der Mythos IX"
-        question="Welcher Himmelkörper repräsentiert Uranus?"
+        question="Welche Eigenschaften repräsentiert Uranus?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -401,7 +411,7 @@ export const Woche1 = () => {
         index={12}
         chapter={1}
         heading="Der Mythos X"
-        question="Welcher Himmelkörper repräsentiert Neuptun?"
+        question="Welche Eigenschaften repräsentiert Neuptun?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -438,7 +448,7 @@ export const Woche1 = () => {
         index={13}
         chapter={1}
         heading="Der Mythos XI"
-        question="Welcher Himmelkörper repräsentiert Neuptun?"
+        question="Welche Eigenschaften repräsentiert Pluto?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
@@ -472,7 +482,14 @@ export const Woche1 = () => {
         Und für was steht der Pluto?
       </Riddle>
 
-      <Riddle chapter={1} index={14} epilog>
+      <Riddle
+        chapter={1}
+        index={14}
+        heading="Astronomie vs Astrologie"
+        question="Ist Astronomie oder Astrologie eine Wissenschaft?"
+        template="_"
+        answer="Astronomie"
+      >
         <br />
         Der Pluto:
         <br />
@@ -485,6 +502,11 @@ export const Woche1 = () => {
         <br />
         Dabei ist der Pluto nichtmal ein "echter" Planet...
         <br />
+        <br />
+        Astronomie und Astrologie, eines davon ist die Wissenschaft der Sterne
+        und des Universums - das andere ist nur eine schöne Geschichte.
+      </Riddle>
+      <Riddle chapter={1} index={15} epilog>
         Ich muss das erstmal alles Verarbeiten und nächste Woche geht es
         wissenschaftlich weiter...
         <br />

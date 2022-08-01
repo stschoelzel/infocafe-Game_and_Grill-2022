@@ -9,9 +9,11 @@ const Container = styled.div`
   line-height: 1.5rem;
   display: flex;
   flex-direction: column;
-  background:white;
-  margin:2rem 0;
-  box-shadow: 5px 5px 5px rgba(255, 127, 127,.1), -5px -5px 5px rgba(255, 127, 127,.1), 5px -5px 0px rgba(255, 127, 127,.1), -5px 5px 0px rgba(255, 127, 127,.1);
+  background: white;
+  margin: 2rem 0;
+  box-shadow: 5px 5px 5px rgba(255, 127, 127, 0.1),
+    -5px -5px 5px rgba(255, 127, 127, 0.1),
+    5px -5px 0px rgba(255, 127, 127, 0.1), -5px 5px 0px rgba(255, 127, 127, 0.1);
   background-image: url("/img/alu3.jpg");
   &:first-letter {
     font-size: 3rem;
@@ -33,9 +35,9 @@ const Corner = styled.div`
   position: absolute;
   height: 2rem;
   width: 6rem;
-  top:.1rem;
-  left:-2rem;
-  transform:rotate(-45deg);
+  top: 0.1rem;
+  left: -2rem;
+  transform: rotate(-45deg);
   background-image: url("/img/tape1.png");
 `;
 
@@ -43,9 +45,9 @@ const Corner2 = styled.div`
   position: absolute;
   height: 2rem;
   width: 6rem;
-  bottom:.1rem;
-  right:-1.4rem;
-  transform:rotate(-45deg);
+  bottom: 0.1rem;
+  right: -1.4rem;
+  transform: rotate(-45deg);
   background-image: url("/img/tape2.png");
 `;
 export const Story = ({ children, style }) => {
@@ -55,8 +57,8 @@ export const Story = ({ children, style }) => {
       <CornerBR />
       <CornerTL />
       <CornerTR />
-      <Corner/>
-      <Corner2/> */}
+      <Corner />
+      <Corner2 />*/}
       {children}
     </Container>
   );

@@ -58,7 +58,7 @@ export const Home = () => {
       </p>
       <p>
         Wann ihr was braucht können wir euch noch nicht sagen. Aber denkt daran,
-        egal wo Ihr seid, auf euch aufzupassen und Rücksicht auf andere zu
+        egal wo ihr seid, auf euch aufzupassen und Rücksicht auf andere zu
         nehmen. Danke!
       </p>
     </Parchment>
