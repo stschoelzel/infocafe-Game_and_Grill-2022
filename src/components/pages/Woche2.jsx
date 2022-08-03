@@ -48,19 +48,72 @@ export const Woche2 = () => {
       </Riddle>
       <Riddle
         index={2}
-        chapter={2}
-        heading="Fragen zum Teleskop"
-        question="Question 2"
-        answer="A"
+        chapter={1}
+        heading="QUIZ TIME! I"
+        question="A,B,C oder D?"
+        choices={[
+          ["A", ""],
+          ["B", ""],
+          ["C", ""],
+          ["D", ""],
+        ]}
+        answer={[0]}
       >
-        “Nur diejenigen, die vom Baum der Weisheit anerkannt werden, ist es
-        gewährt, das Volk der Elfen entgegenzutreten. Nur mit reinem Herzen wird
-        ein Blick in die Schönheit der Flora das Geheimnis lüften.”
+        Frage?
         <br />
-        Kann es sein, dass sich die Elfen vor euch verstecken? Nur ein genauerer
-        Blick in die Natur kann euch dabei helfen sie zu finden. Vier Buchstaben
-        sind jeweils in diesen Stereogrammen verborgen, die das Lösungswort (in
-        Großbuchstaben!) bilden. Schafft ihr es, den Durchblick zu haben?
+        Welche Antwort ist Richtig?
+        <br />
+        (Nur eine Antwort ist Richtig!)
+        <br />
+        <br />
+        A:
+        <br />
+        B:
+        <br />
+        C:
+        <br />
+        D:
+        <br />
+      </Riddle>
+      <Riddle
+        index={2}
+        chapter={1}
+        heading="QUIZ TIME! I"
+        question="A,B,C oder D?"
+        choices={[
+          ["A", ""],
+          ["B", ""],
+          ["C", ""],
+          ["D", ""],
+          ["E", ""],
+          ["F", ""],
+          ["G", ""],
+          ["H", ""],
+        ]}
+        answer={[0]}
+      >
+        Frage?
+        <br />
+        Welche Antwort ist alle Richtig?
+        <br />
+        (Mehrfach Antwort ist Möglich!)
+        <br />
+        <br />
+        A:
+        <br />
+        B:
+        <br />
+        C:
+        <br />
+        D:
+        <br />
+        E:
+        <br />
+        F:
+        <br />
+        G:
+        <br />
+        D:
         <br />
       </Riddle>
       <Riddle
