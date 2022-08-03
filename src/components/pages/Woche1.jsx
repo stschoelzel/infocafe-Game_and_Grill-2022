@@ -91,7 +91,7 @@ export const Woche1 = () => {
         heading="Der Mythos I"
         question="Welche Eigenschaft repräsentiert die Sonne?"
         choices={[
-          ["", "Das Ego"],
+          [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
           [" ", "Das Hier und Jetzt"],
           [" ", "Liebe und Geld, Weiblichkeit"],
@@ -215,7 +215,7 @@ export const Woche1 = () => {
         <div style={{ fontSize: 100 }}>☿</div>
         <br />
         <br />
-        Und für was steht der Venus?
+        Und für was steht die Venus?
       </Riddle>
       <Riddle
         index={7}

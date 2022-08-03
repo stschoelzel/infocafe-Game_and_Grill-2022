@@ -29,7 +29,6 @@ function App() {
                   <Route exact path="/Woche3" component={Woche3} />
                   <Route exact path="/Woche4" component={Woche4} />
                   <Route exact path="/Woche5" component={Woche5} />
-                  <Route exact path="/siegel/:id" component={UnlockRiddle4_9} />
                   <Route
                     exact
                     path="/Woche-4-bansa"
@@ -43,7 +42,7 @@ function App() {
                     exact
                     path="/abschlussWoche2"
                     render={() => (
-                      <UnlockRiddle chapter={2} riddle={4}>
+                      <UnlockRiddle chapter={1} riddle={4}>
                         <Woche2 />
                       </UnlockRiddle>
                     )}
