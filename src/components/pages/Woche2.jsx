@@ -27,7 +27,7 @@ export const Woche2 = () => {
         prolog
         chapter={2}
         heading="Durch ein waldiges Labyrinth"
-        question="Was bin ich?"
+        question="Welchen künstlichen Himmelskörper suchen wir?"
         answer="James Webb Teleskop"
       >
         SCHAUBILDBILD VOM SPIEGEL SETUP
