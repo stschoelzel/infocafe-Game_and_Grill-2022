@@ -5,61 +5,36 @@ import { theme } from "../../theme";
 
 const Container = styled.div`
   position: relative;
-  padding: ${isMobile() ? 1.5 : 3}rem;
-  line-height: 1.5rem;
+  padding: ${isMobile() ? 1 : 2}rem;
   display: flex;
   flex-direction: column;
-  background: white;
+  background: black;
+box-shadow: 0px 0px 5px 3px rgba(0,0,0,1);
+   font-family: 'Source Code Pro', monospace;
+    color:lime;
+  font-weight:normal;
+
+`;
+
+const Border =  styled.div`
+  padding:1rem;
   margin: 2rem 0;
-  box-shadow: 5px 5px 5px rgba(255, 127, 127, 0.1),
-    -5px -5px 5px rgba(255, 127, 127, 0.1),
-    5px -5px 0px rgba(255, 127, 127, 0.1), -5px 5px 0px rgba(255, 127, 127, 0.1);
-  background-image: url("/img/alu3.jpg");
-  &:first-letter {
-    font-size: 3rem;
-    line-height: 1;
-    font-family: Roboto;
-    float: left;
-    font-weight: ;
-    color: ${theme.primary};
-    text-shadow: ${theme.textShadow};
-    padding-right: 0.125em;
-  }
-
-  ul {
-    padding-left: 1rem;
-  }
+  border-radius:.5rem;
+  background:#bcbda9;
+  box-shadow: inset 3px 3px 2px 0px rgba(255,255,255,.6),inset -3px -3px 2px 0px rgba(0,0,0,.3), 0px 2px 10px 0px rgba(0,0,0,.5),0px 5px 10px 0px rgba(0,0,0,.5);
 `;
 
-const Corner = styled.div`
-  position: absolute;
-  height: 2rem;
-  width: 6rem;
-  top: 0.1rem;
-  left: -2rem;
-  transform: rotate(-45deg);
-  background-image: url("/img/tape1.png");
-`;
 
-const Corner2 = styled.div`
-  position: absolute;
-  height: 2rem;
-  width: 6rem;
-  bottom: 0.1rem;
-  right: -1.4rem;
-  transform: rotate(-45deg);
-  background-image: url("/img/tape2.png");
-`;
 export const Story = ({ children, style }) => {
   return (
+    <Border>
+
     <Container style={style}>
-      {/* <CornerBL />
-      <CornerBR />
-      <CornerTL />
-      <CornerTR />
-      <Corner />
-      <Corner2 />*/}
-      {children}
+
+      {/* <Corner src="/img/screw.png" />
+      <Corner2 /> */}
+      {children} <div id="cursor"></div>
     </Container>
+      </Border>
   );
 };

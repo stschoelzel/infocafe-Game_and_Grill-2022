@@ -3,13 +3,13 @@ import { config } from "../../config";
 import { StoreContext } from "../../helper/store";
 import { TableOfContents } from "../molecules/TableOfContents";
 
-export const ConfiguredTableOfContents = ({ unlocked = Infinity }) => {
+export const ConfiguredTableOfContents = ({ unlocked = Infinity, dev }) => {
   const { getChapterState } = React.useContext(StoreContext);
   const chapters = config.chapters;
   let content = [];
   chapters.forEach((c, i) => {
-    const hidden = i >= unlocked;
-    const state = hidden ? "DISABLED" : getChapterState(i + 1);
+    const hidden = dev? false:  i >= unlocked  ;
+    const state = dev? "ACTIVE":  (hidden ? "DISABLED" : getChapterState(i + 1)  );
     content.push({
       label: !hidden ? `Woche ${i + 1}` : "????",
       disabled: state === "DISABLED",

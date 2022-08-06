@@ -25,6 +25,7 @@ export const Woche2 = () => {
       <Riddle
         index={1}
         prolog
+        eineRichtigeAntwort
         chapter={2}
         heading="So ein fleißiges Bienchen..."
         question="Zu was gehört das Bild?"
@@ -34,7 +35,7 @@ export const Woche2 = () => {
           "James Webb Teleskop",
           "James Webb Weltraumteleskop",
         ]}
-        template="_ (Tipp: X-Y-Z)"
+        template="(Tipp: X-Y-Z)"
       >
         Ist es eine Bienenwabe? <br />
         Ein Zahlenrätsel? <br />
@@ -259,7 +260,7 @@ export const Woche2 = () => {
           ["C", ""],
           ["D", ""],
         ]}
-        answer={[0]}
+        answer={[1]}
       >
         Genau, das James Webb Teleskop wurde nach James Webb, dem ehemaligen
         Verwaltungsangestellter der NASA in den 60er Jahren benannt. Das ist ja
@@ -297,12 +298,9 @@ export const Woche2 = () => {
         Lichtjahre von uns entfernt.
         <br />
         <br />
-        <img
+        <Map
           src="img/BIGPICTURE.webp"
-          style={{
-            height: "100%",
-            width: "100%",
-          }}
+
         />
       </Riddle>
 

@@ -20,6 +20,18 @@ function App() {
     <>
       <HashRouter>
         <StoreProvider>
+          <div style={{
+            position:"fixed",
+            background: "black",
+            top:0,
+            bottom:0,
+            left:0, 
+            right:0,
+            opacity:.5,
+            // mixBlendMode:"overlay",
+            zIndex:-1
+          }}> </div>
+        
           <Route
             render={({ location }) => (
               <AnimatePresence exitBeforeEnter>

@@ -36,6 +36,7 @@ export const Riddle = ({
   epilog,
   template,
   choices,
+  eineRichtigeAntwort,
 }) => {
   const { getRiddleState, solveRiddle } = React.useContext(StoreContext);
   const [openState, setOpen] = React.useState(false);
@@ -82,6 +83,7 @@ export const Riddle = ({
 
             {!coordinate && !choices && (
               <TextQuestion
+                eineRichtigeAntwort
                 solved={state === "SOLVED"}
                 question={question}
                 answer={answer}

@@ -30,6 +30,7 @@ export const AnswerField = ({
   disabled,
   answered,
   style,
+  eineRichtigeAntwort,
 }) => {
   const a = Array.isArray(answer) ? answer : [answer];
   const [state, setState] = React.useState(a.map(() => ""));
@@ -47,6 +48,20 @@ export const AnswerField = ({
     setState(newState);
     onChange(newState);
   };
+
+  if (eineRichtigeAntwort) {
+    return (
+      <Container style={style}>
+              <InputEl
+                  style={{ width: `${a[0].length + 2}ch` }}
+                  disabled={disabled}
+                  value={state[0]}
+                  onChange={(e) => setInputs(0, e.target.value)}
+                  type="text"
+/>{template}
+      </Container>
+    );
+  }  
 
   return (
     <Container style={style}>

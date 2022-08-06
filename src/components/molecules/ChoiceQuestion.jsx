@@ -5,21 +5,22 @@ import styled from "styled-components";
 import { theme } from "../../theme";
 
 const Rock = styled.div`
-  background-image: url("img/rock.jpg");
-  background-size: 100%;
-  box-shadow: 0px 0.1rem 0.5rem rgba(0, 0, 0, 0.5),
-    inset 0px 0px 30px rgba(0, 0, 0, 1);
-  border: 2px solid #111;
-  padding: 1rem;
+  padding: 1.5rem 1rem 1rem 1rem;
   display: flex;
-  color: rgba(255, 255, 255, 0.4);
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  aspect-ratio: 1;
   width: 100%;
-  font-family: Rune Slasher;
   max-width: 10rem;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,.6);
+  font-weight: normal;
+  height:100%;
+
+  background: #fdf694;
+
 `;
+
+
+
 
 const Grid = styled.div`
   display: grid;
@@ -94,23 +95,33 @@ export const ChoiceQuestion = ({
 };
 
 const Board = ({ primary, secondary, active, onClick }) => {
+  const [val] = React.useState(Math.random());
+
   return (
-    <Rock onClick={onClick}>
+    <Rock onClick={onClick} style={{
+      transition: "all 100ms",
+      transform:`rotate(${(val- .5) * 5}deg)`
+    }}>
       <div
         style={{
           transition: "all 100ms",
-          fontSize: "2rem",
+          fontSize: "1.5rem",
           marginBottom: ".5rem",
-          textShadow: active ? "0px 0px 10px rgba(50,255,50,.8)" : "",
+          textDecorationStyle:"wavy",
+          fontWeight:active ?"bold" : "",
+          textDecoration:active ?"underline" : "",
+          // textShadow: active ? "0px 0px 10px rgba(50,255,50,.8)" : "",
         }}
-      >
+        >
         {primary}
       </div>
       <div
         style={{
           transition: "all 100ms",
-          fontSize: "1.5rem",
-          textShadow: active ? "0px 0px 10px rgba(50,255,50,.8)" : "",
+          fontSize: "1rem",    
+           textDecoration:active ?"underline" : "",
+           fontWeight:active ?"bold" : "",
+          // textShadow: active ? "0px 0px 10px rgba(50,255,50,.8)" : "",
         }}
       >
         {secondary}

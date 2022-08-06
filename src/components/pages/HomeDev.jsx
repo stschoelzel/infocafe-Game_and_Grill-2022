@@ -16,23 +16,16 @@ export const HomeDev = () => {
       <Logo />
 
       <Story>
-        <div
-          style={{ textDecoration: "none", color: theme.primary, opactiy: 1 }}
-        >
-          Die Sommerferien sind da und das diesjährige Game’n’Grill steht wieder
-          vor der Tür: Ein neues Abenteuer voller Rätsel, Spiel und Spaß
-          beginnt!
-          <br />
-          <br />
-          Vier Wochen mit je Drei Aufgaben.
-          <br />
-          <br />
-          Die Spiele sind eröffnet!
-        </div>
+        <b>* DEVELOPER MODE * </b>
+        Wenn du diese Nachricht liest hast du bewiesen das du uns helfen kannst.
+        Irgendetwas stimmt nicht im Land und nur du kannst uns helfen! Wir
+        werden am 13.7. den ersten Hinweis geben können damit du herausfinden
+        kannst was passiert ist. Das hier ist übrigens ein magischer Brief der
+        seinen Inhalt ändern kann…
       </Story>
 
       <Divider />
-      <ConfiguredTableOfContents unlocked={5} />
+      <ConfiguredTableOfContents unlocked={5} dev={true}/>
 
       <Divider />
       <H3>Allgemeine Infos</H3>

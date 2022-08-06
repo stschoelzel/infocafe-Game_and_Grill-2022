@@ -18,6 +18,7 @@ export const TextQuestion = ({
   solved,
   onSolve,
   template,
+  eineRichtigeAntwort,
 }) => {
   const [answered, setAnswered] = React.useState(false);
 
@@ -29,6 +30,16 @@ export const TextQuestion = ({
 
   const checkValue = (v) => {
     const a = Array.isArray(answer) ? answer : [answer];
+    
+    if(eineRichtigeAntwort){
+      const richtig = a[0];
+      const _answered = answer.some(b=>b.toUpperCase()=== richtig.toUpperCase())
+      if(_answered)
+      {setAnswered(true);
+      onSolve();}
+    }
+
+
     if (
       !v.some((v, i) => {
         return v.toUpperCase() !== a[i].toUpperCase();
@@ -43,6 +54,7 @@ export const TextQuestion = ({
     <Container>
       <H3 style={{ marginBottom: "2rem" }}>{question}</H3>
       <AnswerField
+        eineRichtigeAntwort
         style={{ color: !answered ? theme.primary : theme.green }}
         disabled={answered}
         answer={answer}
