@@ -16,9 +16,7 @@ export const Home = () => {
       <Logo />
 
       <Story>
-        <div
-          style={{ textDecoration: "none", color: theme.primary, opactiy: 1 }}
-        >
+        <div>
           Die Sommerferien sind da und das diesjährige Game’n’Grill steht wieder
           vor der Tür: Ein neues Abenteuer voller Rätsel, Spiel und Spaß
           beginnt!
@@ -26,7 +24,7 @@ export const Home = () => {
           <br />
           Vier Wochen mit je drei Aufgaben.
           <br />
-          Und in der fünften Woche Grillen wir dann mit euch zusammen!
+          Und in der fünften Woche grillen wir dann mit euch zusammen!
           <br />
           <br />
           Die Spiele sind eröffnet!
