@@ -10,5 +10,6 @@ export const H3 = styled.div`
   color: ${theme.secondary};
   font-size: 2rem;
   margin: 1rem;
-  text-shadow: -1px -1px 0 ${borderColor}, 1px -1px 0 ${borderColor}, -1px 1px 0 ${borderColor}, 1px 1px 0 ${borderColor}, ${theme.textShadow};
+  text-shadow: -1px -1px 0 ${borderColor}, 1px -1px 0 ${borderColor},
+    -1px 1px 0 ${borderColor}, 1px 1px 0 ${borderColor}, ${theme.textShadow};
 `;

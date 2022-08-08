@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { theme } from "../../theme";
+import { borderColor } from "./H3";
 
 export const H4 = styled.div`
   font-family: Oxanium;
@@ -9,4 +10,6 @@ export const H4 = styled.div`
   color: ${theme.secondary};
   margin-bottom: 2rem;
   text-shadow: ${theme.textShadow};
+  text-shadow: -1px -1px 0 ${borderColor}, 1px -1px 0 ${borderColor},
+    -1px 1px 0 ${borderColor}, 1px 1px 0 ${borderColor}, ${theme.textShadow};
 `;

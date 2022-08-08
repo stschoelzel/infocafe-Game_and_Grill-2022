@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { isMobile } from "../../helper/isMobile";
 import { motion } from "framer-motion";
 import { theme } from "../../theme";
+import { borderColor } from "./H3";
+
 const Heading = styled(motion.div)`
   margin-top: 2rem;
   position: relative;
@@ -28,16 +30,21 @@ const Sommer = styled.div`
   margin-bottom: ${(p) => p.f * -2}rem;
   font-size: ${(p) => p.f * 6}rem;
   font-weight: 300;
+  text-shadow: -1px -1px 0 ${borderColor}, 1px -1px 0 ${borderColor},
+    -1px 1px 0 ${borderColor}, 1px 1px 0 ${borderColor}, ${theme.textShadow};
 `;
 const Benteue = styled.div`
   font-size: ${(p) => p.f * 4}rem;
   transform: rotate(0);
+  text-shadow: -1px -1px 0 ${borderColor}, 1px -1px 0 ${borderColor},
+    -1px 1px 0 ${borderColor}, 1px 1px 0 ${borderColor}, ${theme.textShadow};
 `;
 const Sommer2 = styled.div`
   color: ${theme.primary};
   margin-bottom: ${(p) => p.f * -4}rem;
   font-size: ${(p) => p.f * 10}rem;
   font-weight: 300;
+  text-shadow: -1px -1px 0 ${borderColor}, 1px -1px 0 ${borderColor}, -1px 1px 0 ${borderColor}, 1px 1px 0 ${borderColor}, ${theme.textShadow};
 `;
 const A = styled.div`
   position: absolute;
@@ -45,7 +52,6 @@ const A = styled.div`
   left: ${(p) => p.f * -6.3}rem;
   font-size: ${(p) => p.f * 8}rem;
 `;
-
 
 export const Logo = ({ size = 1, responsive = true }) => {
   let f;

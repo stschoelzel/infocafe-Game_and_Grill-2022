@@ -52,16 +52,17 @@ export const AnswerField = ({
   if (eineRichtigeAntwort) {
     return (
       <Container style={style}>
-              <InputEl
-                  style={{ width: `${a[0].length + 2}ch` }}
-                  disabled={disabled}
-                  value={state[0]}
-                  onChange={(e) => setInputs(0, e.target.value)}
-                  type="text"
-/>{template}
+        <InputEl
+          style={{ width: `${a[0].length + 2}ch` }}
+          disabled={disabled}
+          value={state[0]}
+          onChange={(e) => setInputs(0, e.target.value)}
+          type="text"
+        />
+        {template}
       </Container>
     );
-  }  
+  }
 
   return (
     <Container style={style}>
