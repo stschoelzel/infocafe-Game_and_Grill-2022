@@ -5,10 +5,10 @@
 //      Woche 2 - 4 Rätsel ...
 const sa2020 = { name: "sa2020", chapters: [4, 5, 2, 9] };
 const sa2021 = { name: "sa2021", chapters: [5, 5, 5, 5, 3] };
-const sa2022 = { name: "sa2022", chapters: [15, 5, 5, 5, 1] };
+const sa2022 = { name: "sa2022", chapters: [15, 8, 5, 5, 1] };
 
 // Freigeschaltete Woche
-export const unlocked = new Date().getDate() > 8 ? 2 : 1;
+export const unlocked = new Date().getDate() >= 8 ? 2 : 1;
 // Aktuelle Config
 export const config = sa2022;
 

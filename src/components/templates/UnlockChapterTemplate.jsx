@@ -8,24 +8,25 @@ import { StoreContext } from "../../helper/store";
 
 export const UnlockChapterTemplate = ({ chapter, date }) => {
   const { solveChapter } = React.useContext(StoreContext);
+  const day = date.split(".");
 
   React.useEffect(() => {
-    solveChapter(chapter);
+    if (new Date().getDate() >= day[0]) {
+      solveChapter(chapter);
+      console.log("1");
+    }
   }, []);
+
   return (
-    <Parchment>
-      <H1>Glückwunsch!</H1>
-      <Story>
-        Ihr habt das {chapter}. Woche des Abenteuers abgeschlossen! Gönnt euch
-        eine wohlverdiente Rast, bald geht es weiter.
-        <br />
-        <br />
-        Das nächste Woche offenbart sich euch am
-        <br />
-        <br />
-        <H4>{date}</H4>
-        Kehrt dann zum letzten Ort eures Abenteuers zurück um fortzufahren!
-      </Story>
-    </Parchment>
+    <p>
+      Ihr habt das {chapter}. Woche des Abenteuers abgeschlossen! Gönnt euch
+      eine wohlverdiente Rast, bald geht es weiter.
+      <br />
+      <br />
+      Das nächste Woche offenbart sich euch am:
+      <br />
+      <br />
+      <H4>{date}</H4>
+    </p>
   );
 };

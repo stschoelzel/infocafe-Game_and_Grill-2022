@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import { BackToHome } from "../atoms/BackToHome";
 import styled from "styled-components";
 import { Image } from "../molecules/Image";
+import { UnlockChapterTemplate } from "../templates/UnlockChapterTemplate";
 
 export const Woche1 = () => {
   return (
@@ -507,10 +508,7 @@ export const Woche1 = () => {
         und des Universums - das andere ist nur eine schöne Geschichte.
       </Riddle>
       <Riddle chapter={1} index={15} epilog>
-        Ich muss das erstmal alles Verarbeiten und nächste Woche geht es
-        wissenschaftlich weiter...
-        <br />
-        <H4 style={{ margin: "3rem" }}>08.08.2022</H4>
+        <UnlockChapterTemplate chapter={1} date={"8.8.2022"} />
       </Riddle>
       <BackToHome />
     </Parchment>
