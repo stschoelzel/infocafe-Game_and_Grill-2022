@@ -179,7 +179,7 @@ export const Woche2 = () => {
         <br />
         G: keine Antwort ist richtig – ist doch alles völliger Quatsch…
         <br />
-        D: das Teleskop hat seinen Zweck bereits erfüllt und ist zurück auf der
+        H: das Teleskop hat seinen Zweck bereits erfüllt und ist zurück auf der
         Erde
         <br />
       </Riddle>
@@ -299,6 +299,7 @@ export const Woche2 = () => {
         Lichtjahre von uns entfernt.
         <br />
         <br />
+        (Du kannst das Bild auf einfach runterladen ;)
         <Map src="img/BIGPICTURE.webp" />
       </Riddle>
 
