@@ -510,7 +510,7 @@ export const Woche1 = () => {
         Ich muss das erstmal alles Verarbeiten und nächste Woche geht es
         wissenschaftlich weiter...
         <br />
-        <H4 style={{margin:"3rem"}}>08.08.2022</H4>
+        <H4 style={{ margin: "3rem" }}>08.08.2022</H4>
       </Riddle>
       <BackToHome />
     </Parchment>

@@ -56,7 +56,7 @@ export const TextQuestion = ({
     <Container>
       <H3 style={{ marginBottom: "2rem" }}>{question}</H3>
       <AnswerField
-        eineRichtigeAntwort
+        eineRichtigeAntwort={eineRichtigeAntwort}
         style={{ color: !answered ? theme.primary : theme.green }}
         disabled={answered}
         answer={answer}

@@ -298,27 +298,11 @@ export const Woche2 = () => {
         Lichtjahre von uns entfernt.
         <br />
         <br />
-        <Map
-          src="img/BIGPICTURE.webp"
-
-        />
+        <Map src="img/BIGPICTURE.webp" />
       </Riddle>
 
       <Riddle chapter={2} index={9} epilog>
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <Bilderratsel src="img/2_41.png" i={1}>
-          In Level 3 hier...
-        </Bilderratsel>
-        <Bilderratsel src="img/2_42.png" i={2}>
-          ... dann hier in Level 6...
-        </Bilderratsel>
-        <Bilderratsel src="img/2_43.png" i={3}>
-          und zuletzt in Level 9 hier.
-        </Bilderratsel>
         Fortsetzung folgt...
         <br />
         <br />
