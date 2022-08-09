@@ -12,7 +12,8 @@ const openPose = {
   opacity: 1,
   transition: {
     duration: 1,
-  }, overflow:"visible"
+  },
+  overflow: "visible",
 };
 
 const closedPose = {
@@ -83,7 +84,7 @@ export const Riddle = ({
 
             {!coordinate && !choices && (
               <TextQuestion
-                eineRichtigeAntwort
+                eineRichtigeAntwort={eineRichtigeAntwort}
                 solved={state === "SOLVED"}
                 question={question}
                 answer={answer}

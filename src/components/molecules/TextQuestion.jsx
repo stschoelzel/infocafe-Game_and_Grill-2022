@@ -30,15 +30,17 @@ export const TextQuestion = ({
 
   const checkValue = (v) => {
     const a = Array.isArray(answer) ? answer : [answer];
-    
-    if(eineRichtigeAntwort){
-      const richtig = a[0];
-      const _answered = answer.some(b=>b.toUpperCase()=== richtig.toUpperCase())
-      if(_answered)
-      {setAnswered(true);
-      onSolve();}
-    }
 
+    if (eineRichtigeAntwort) {
+      const richtig = a[0];
+      const _answered = a.some(
+        (b) => b.toUpperCase() === richtig.toUpperCase()
+      );
+      if (_answered) {
+        setAnswered(true);
+        onSolve();
+      }
+    }
 
     if (
       !v.some((v, i) => {

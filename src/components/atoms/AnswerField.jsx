@@ -25,7 +25,7 @@ const Container = styled.div`
 `;
 export const AnswerField = ({
   answer = "",
-  template = "_",
+  template,
   onChange,
   disabled,
   answered,
@@ -39,7 +39,7 @@ export const AnswerField = ({
       setState(a);
     }
   }, [answered, answer]);
-  const templateArray = template.split("_");
+  const templateArray = (template || "_").split("_");
 
   const setInputs = (i, v) => {
     if (v.length > a[i].length) return;
