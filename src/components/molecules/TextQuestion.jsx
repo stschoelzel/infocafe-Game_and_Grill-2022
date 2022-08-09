@@ -30,9 +30,8 @@ export const TextQuestion = ({
 
   const checkValue = (v) => {
     const a = Array.isArray(answer) ? answer : [answer];
-
     if (eineRichtigeAntwort) {
-      const richtig = a[0];
+      const richtig = v[0];
       const _answered = a.some(
         (b) => b.toUpperCase() === richtig.toUpperCase()
       );
