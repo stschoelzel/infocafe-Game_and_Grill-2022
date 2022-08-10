@@ -4,19 +4,19 @@ import { Parchment } from "../atoms/Parchment";
 import { H1 } from "../atoms/H1";
 import { Story } from "../molecules/Story";
 import { H4 } from "../atoms/H4";
-import { StoreContext, storedValue } from "../../helper/store";
-// import { config } from "../config";
+import { StoreContext } from "../../helper/store";
+import { config } from "../../config";
 
 export const UnlockChapterTemplate = ({ chapter, date }) => {
   const { solveChapter } = React.useContext(StoreContext);
   const day = date.split(".");
+  const { getRiddleState } = React.useContext(StoreContext);
 
   React.useEffect(() => {
-    // if (
-    //   new Date().getDate() >= day[0] &&
-    //   storedValue.progress[{ chapter }][config.chapters[{ chapter } - 1]]
-    // ) {
     if (new Date().getDate() >= day[0]) {
+      console.log(
+        getRiddleState({ chapter }, config.chapters[{ chapter } - 1])
+      );
       solveChapter(chapter);
     }
   }, []);
