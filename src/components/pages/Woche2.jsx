@@ -109,31 +109,34 @@ export const Woche2 = () => {
       >
         Richtig, das James Webb Teleskop befindet sich im Weltall, ca 1,5
         Millionen Kilometer von der Erde entfernt. Es kreist bei einer
-        Geschwindigkeit von 202 Metern pro Sekunde (727 km/h) in einem
-        Halo-Orbit um den äußeren Lagrange-Punkt L2 im System Erde-Sonne, etwa
-        1,5 Millionen km über der Nachtseite der Erde.
+        Geschwindigkeit von 202 Metern pro Sekunde (727 km/h) in einem Orbit um
+        den äußeren Lagrange-Punkt L2 im System Erde-Sonne, etwa 1,5 Millionen
+        km über der Nachtseite der Erde. Ein Lagrange-Punkt, von denen es
+        ingesamt fünf gibt, ist ein Punkt zwischen zwei Himmelskörpern (z. B.
+        zwischen Sonne und Erde) an dem ein leichtes Objekt, wie ein Satellit
+        oder Asteroid, ohne eigenen Antrieb in einem Orbit bleiben kann.
         <br />
         <br />
-        Aber wie bleibt es an seinem Platz, ohne in die Tiefen des Weltalls zu
-        verschwinden?
+        Aber wie richtet sich das JWST aus, wenn es sich trotzdem etwas bewegen
+        muss, um Fotos zu machen?
         <br />
-        A: tut es nicht – es bewegt sich in einer Laufbahn um die Erde
+        A: tut es nicht – es schaut immer von der Sonne weg
         <br />
         B: es wird mit Hilfe von Sensoren und Steuerdüsen ausgerichtet
         <br />
-        C: es ist mit einem langen Seil am Mond befestigt, um nicht abzudriften
+        C: tut es nicht – es hat eine Panormalinse und macht 360°-Aufnahmen
         <br />
-        D: es hat einen Impulsantrieb, der es an den richtigen Ort bringt
+        D: es hat einen Impulsantrieb, mit dem es sich frei bewegen kann
         <br />
         E: es hat einen riesigen Magneten, der sich vom Magnetfeld der Erde
-        abschiebt
+        abstößt
         <br />
         F: die Gravitation des Mondes hält es an einem Ort
         <br />
-        G: alle 28 Tage landen Astronaut*innen der NASA auf dem Teleskop und
+        G: alle 28 Tage landen Astronaut*innen der ESA auf dem Teleskop und
         richten es neu aus
         <br />
-        D: es driftet immer tiefer in die Weiten des Weltalls, bis wir in
+        H: es driftet immer tiefer in die Weiten des Weltalls, bis wir in
         ungefähr 190 Tagen den Kontakt zu ihm verlieren
         <br />
       </Riddle>
@@ -154,9 +157,9 @@ export const Woche2 = () => {
         ]}
         answer={[2, 3]}
       >
-        Richtig, das JWST wird von Sonnensensoren, Sternsensoren,
-        Reaktionsrädern und Steuerdüsen in seiner Position gehalten. Wie das
-        genau funktioniert, könnt ihr gerne im Internet nachlesen ;)
+        Richtig, das JWST wird durch Sonnensensoren, Sternsensoren,
+        Reaktionsrädern und Steuerdüsen ausgerichtet. Wie das genau
+        funktioniert, könnt ihr gerne im Internet nachlesen ;)
         <br />
         <br />
         Worüber soll das James Webb Teleskop Auskunft geben? (Mehrfachantwort
@@ -194,7 +197,7 @@ export const Woche2 = () => {
           ["C", ""],
           ["D", ""],
         ]}
-        answer={[2]}
+        answer={[0, 1, 3]}
       >
         Richtig, das JWST soll weiter ins All schauen als es uns Menschen jemals
         zuvor gelungen ist und dabei blicken wir viele Millionen, sogar
@@ -208,7 +211,7 @@ export const Woche2 = () => {
         <br />
         <br />
         Das James Webb Teleskop ist also wirklich ein tolles Teil! Aber wer war
-        denn NICHT an seiner Entwicklung beteiligt?
+        denn alles an seiner Entwicklung beteiligt?
         <br />
         A: die NASA (National Aeronautics and Space Administration)
         <br />
@@ -295,8 +298,8 @@ export const Woche2 = () => {
         12866593442700000000000 km <br />
         <br />
         <br />
-        Ultrahighrez Bild der "Cosmic Cliffs", die sind übriegns "nur" 7600
-        Lichtjahre von uns entfernt.
+        Dieses Ultrahochauflösende Bild der "Cosmic Cliffs", die sind übriegns
+        "nur" 7600 Lichtjahre von uns entfernt.
         <br />
         <br />
         (Du kannst das Bild auf einfach runterladen ;)
