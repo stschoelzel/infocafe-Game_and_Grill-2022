@@ -256,7 +256,7 @@ export const Woche3 = () => {
         Beam me up, Thommy!
         <br />
         <br />
-        <UnlockChapterInRiddleTemplate chapter={3} date={"22.8.2022"} />
+        <UnlockChapterInRiddleTemplate chapter={3} date={"15.8.2022"} />
       </Riddle>
       <BackToHome />
     </Parchment>
