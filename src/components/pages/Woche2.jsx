@@ -10,6 +10,7 @@ import { SepiaImg } from "../atoms/SepiaImg";
 import { Link } from "react-router-dom";
 import { BackToHome } from "../atoms/BackToHome";
 import { UnlockChapterTemplate } from "../templates/UnlockChapterTemplate";
+import { UnlockChapterInRiddleTemplate } from "../templates/UnlockChapterInRiddleTemplate";
 
 export const Woche2 = () => {
   return (
@@ -307,7 +308,7 @@ export const Woche2 = () => {
       </Riddle>
 
       <Riddle chapter={2} index={9} epilog>
-        <UnlockChapterTemplate chapter={2} date={"15.8.2022"} />
+        <UnlockChapterInRiddleTemplate chapter={2} date={"15.8.2022"} />
       </Riddle>
       <BackToHome />
     </Parchment>
