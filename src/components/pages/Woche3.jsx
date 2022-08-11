@@ -114,7 +114,7 @@ export const Woche3 = () => {
       </Riddle>
 
       <Riddle
-        index={4}
+        index={5}
         chapter={3}
         heading="Vergangenheit IV"
         question=" "
@@ -133,7 +133,7 @@ export const Woche3 = () => {
         11
       </Riddle>
       <Riddle
-        index={5}
+        index={6}
         chapter={3}
         heading="Vergangenheit V"
         question=" "
@@ -150,7 +150,7 @@ export const Woche3 = () => {
         Meteor
       </Riddle>
       <Riddle
-        index={6}
+        index={7}
         chapter={3}
         heading="Vergangenheit VI"
         question=" "
@@ -198,19 +198,64 @@ export const Woche3 = () => {
         index={9}
         chapter={3}
         heading="Sternbilder I"
-        question="Küche."
-        answer="Asterismus"
+        question=" "
+        answer="Löwe"
         template="Es handelt sich dabei um das Sternbild _!"
       >
         Das Wort “Asterismus” ist griechisch und vom Wort “ἀστήρ” (“aster”) für
         “Stern” abgeleitet. Asterismus wird auch Lichtstern oder Sternenglanz
         genannt und steht für die sternförmigen Lichtreflexe in Kristallen.
         <br />
-        Denkt mal an Sterne und sagt: was verbirgt sich hinter diesem (gar nicht
-        mal so) kleinen Mäuschen?
+        Denkt mal an Sterne und sagt: was verbirgt sich hinter dem (gar nicht
+        mal so) kleinen Mäuschen ganz oben auf dieser Seite?
+      </Riddle>
+      <Riddle
+        index={10}
+        chapter={3}
+        heading="Sternbilder II"
+        question=" Wer ist dieser Mensch?"
+        answer="Thomas Reiter"
+        template=" "
+      >
+        Nun würden wir euch eigentlich gerne an einen passenden Ort dafür
+        schicken - aber es ist einfach zu warm, also möchten wir euch das
+        ersparen ;) Zum Glück könnt ihr diesen Ort auch digital besuchen. Macht
+        das doch mal und schaut euch gut um - so gut, dass ihr euch zumindest,
+        dass ihr euch im Kreis drehen könnt (Tipp: um wieviel Grad müsst ihr
+        euch drehen, um euch einmal um eure eigene Achse zu drehen?).
+        <br />
+        Wir suchen eine Person, die uns thematisch zurück in den Weltraum
+        bringt.
+      </Riddle>
+      <Riddle
+        index={11}
+        chapter={3}
+        heading="Sternbilder III"
+        question="Wie heißt dieser Stern mit “richtigem” Namen?"
+        answer="Alkor"
+        template=" "
+      >
+        Genau, Thomas Reiter ist nicht nur Astronaut, sondern auch
+        Neu-Isenburger. In seiner Jugend besuchte er sogar die Goetheschule!
+        Heute arbeitet er für die Europäische Weltraumorganisation (ESA) und
+        verbrachte bisher 350 Tage im All. Zwar nicht von Reiter entdeckt, aber
+        trotzdem mit ihm “verwandt” ist ein Stern aus dem Sternbild des Großen
+        Bären, etwa 82 Lichtjahre von der Sonne entfernt.
       </Riddle>
 
-      <Riddle chapter={3} index={10} epilog>
+      <Riddle chapter={3} index={12} epilog>
+        Der Stern Alkor wird umgangssprachlich Reiterlein genannt. Nun aber
+        zurück zu Thomas Reiter und seinen Worten
+        <br />
+        <br /> “Aus dem All erkennt man keine Ländergrenzen. Da gibt es nur eine
+        Erde, und die ist ungeteilt.” <br />
+        <br />
+        mit denen wir uns in die vierte Woche des Game’n’Grill Rätsels 2022
+        verabschieden.
+        <br /> <br />
+        Beam me up, Thommy!
+        <br />
+        <br />
         <UnlockChapterInRiddleTemplate chapter={3} date={"22.8.2022"} />
       </Riddle>
       <BackToHome />
