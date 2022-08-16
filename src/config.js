@@ -8,7 +8,7 @@ const sa2021 = { name: "sa2021", chapters: [5, 5, 5, 5, 3] };
 const sa2022 = { name: "sa2022", chapters: [15, 8, 12, 5, 1] };
 
 // Freigeschaltete Woche
-export const unlocked = new Date().getDate() >= 8 ? 2 : 1;
+export const unlocked = new Date().getDate() >= 15 ? 3 : 2;
 // Aktuelle Config
 export const config = sa2022;
 

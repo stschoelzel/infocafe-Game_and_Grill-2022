@@ -303,7 +303,7 @@ export const Woche2 = () => {
         "nur" 7600 Lichtjahre von uns entfernt.
         <br />
         <br />
-        (Du kannst das Bild auf einfach runterladen ;)
+        (Du kannst das Bild auch einfach runterladen ;)
         <Map src="img/BIGPICTURE.webp" />
       </Riddle>
 
