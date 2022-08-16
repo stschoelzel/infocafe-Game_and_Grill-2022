@@ -102,11 +102,11 @@ export const Woche3 = () => {
         heading="Vergangenheit II"
         question=" "
         answer="Sonne"
-        template="Wir kreisen um _ ."
+        template="Wir kreisen um die _ ."
       >
         Und...
         <br />
-        Wir kreisen um _______. <br />
+        Wir kreisen um die _______. <br />
         Venus <br />
         Sonne <br />
         Mondorbits <br />
@@ -168,7 +168,7 @@ export const Woche3 = () => {
         Hellgelbes
       </Riddle>
       <Riddle
-        index={7}
+        index={8}
         chapter={3}
         heading="Vergangenheit VII"
         question=" "
@@ -186,7 +186,7 @@ export const Woche3 = () => {
         Milchstraße
       </Riddle>
       <Riddle
-        index={8}
+        index={9}
         chapter={3}
         heading="Vergangenheit VIII"
         question="Küche."
@@ -195,7 +195,7 @@ export const Woche3 = () => {
         Sehr gut! Den nächsten Hinweis findet ihr direkt bei uns in der Küche ;)
       </Riddle>
       <Riddle
-        index={9}
+        index={10}
         chapter={3}
         heading="Sternbilder I"
         question=" "
@@ -210,7 +210,7 @@ export const Woche3 = () => {
         mal so) kleinen Mäuschen ganz oben auf dieser Seite?
       </Riddle>
       <Riddle
-        index={10}
+        index={11}
         chapter={3}
         heading="Sternbilder II"
         question=" Wer ist dieser Mensch?"
@@ -228,7 +228,7 @@ export const Woche3 = () => {
         bringt.
       </Riddle>
       <Riddle
-        index={11}
+        index={12}
         chapter={3}
         heading="Sternbilder III"
         question="Wie heißt dieser Stern mit “richtigem” Namen?"
@@ -243,7 +243,7 @@ export const Woche3 = () => {
         Bären, etwa 82 Lichtjahre von der Sonne entfernt.
       </Riddle>
 
-      <Riddle chapter={3} index={12} epilog>
+      <Riddle chapter={3} index={13} epilog>
         Der Stern Alkor wird umgangssprachlich Reiterlein genannt. Nun aber
         zurück zu Thomas Reiter und seinen Worten
         <br />
@@ -256,7 +256,7 @@ export const Woche3 = () => {
         Beam me up, Thommy!
         <br />
         <br />
-        <UnlockChapterInRiddleTemplate chapter={3} date={"15.8.2022"} />
+        <UnlockChapterInRiddleTemplate chapter={3} date={"22.8.2022"} />
       </Riddle>
       <BackToHome />
     </Parchment>
