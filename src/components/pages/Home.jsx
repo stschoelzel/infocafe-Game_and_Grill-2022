@@ -32,7 +32,8 @@ export const Home = () => {
       </Story>
 
       <Divider />
-      <ConfiguredTableOfContents unlocked={unlocked} />
+      {/* <ConfiguredTableOfContents unlocked={unlocked} /> */}
+      <ConfiguredTableOfContents unlocked={5} />
 
       <Divider />
       <H3>Allgemeine Infos</H3>

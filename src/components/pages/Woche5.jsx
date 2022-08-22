@@ -31,42 +31,11 @@ export const Woche5 = () => {
   const riddle4_9 = getSubRiddleState(4, 9);
   return (
     <Parchment>
-      <H1>Woche 4 - Luft</H1>
+      <H1>Grilldatent</H1>
 
-      <img
-        src="img/air.png"
-        style={{
-          height: "100%",
-          width: "100%",
-        }}
-      />
-      <Riddle index={1} chapter={5} prolog>
-        Ihr reist durch das Gebirge und steuert auf den Gipfel des höchsten
-        Berges zu. Stück für Stück erklimmt ihr den Berg auf deren schmalen
-        Pfaden Richtung Himmel. Ihr seht, wie die Spitze des Berges in Wolken
-        hineinragt. Auf eurem Weg nach oben kommt ihr den Wolken immer näher,
-        bis ihr von ihnen umgeben seid.
-        <br />
-        <br />
-        Innerhalb der Wolken gelangt ihr auf den Gipfel. Dort erblickt ihr eine
-        riesige Treppe bestehend aus Wolken, die noch weiter in die Höhe führt.
-        Führt sie euch zu der fliegenden Insel? Bereit es herauszufinden,
-        besteigt ihr die Treppe in schwindelerregenden Höhen.
-      </Riddle>
+      <Riddle index={1} chapter={5} prolog></Riddle>
 
-      <Riddle chapter={5} index={2} epilog>
-        Gemeinsam mit den Vogelmenschen fliegt ihr von der langsam sinkenden
-        fliegend Insel runter auf die Hauptinsel. In der Ferne erblickt ihr
-        Mitten im Himmel einen Spalt, in dem nur tiefe Dunkelheit zu erkenne
-        ist. Die Hohepriesterin wirkt sehr verunsichert: “Wie kann es sein? Ist
-        es etwas möglich, dass… Wir müssen uns beeilen!”
-        <br />
-        <br />
-        Fortsetzung folgt...
-        <br />
-        <br />
-        <H4>23.08.2020</H4>
-      </Riddle>
+      <Riddle chapter={5} index={2} epilog></Riddle>
 
       <BackToHome />
     </Parchment>

@@ -15,7 +15,10 @@ export const UnlockChapterInRiddleTemplate = ({ chapter, date }) => {
   React.useEffect(() => {
     if (new Date().getDate() >= day[0]) {
       // TIL {chapter} = object chapter = chapter:1    und chapter = 1 ....
-      if (getRiddleState(chapter, config["chapters"][chapter]) === "SOLVED") {
+      // debugger;
+      if (
+        getRiddleState(chapter, config["chapters"][chapter - 2]) === "SOLVED"
+      ) {
         solveChapter(chapter);
       }
     }
