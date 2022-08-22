@@ -44,10 +44,10 @@ export const Woche3 = () => {
         <br /> <br />
         Vielleicht habt ihr schon einmal gehört, dass die Lichtgeschwindigkeit
         die schnellste Geschwindigkeit überhaupt ist. Weil das Universum so
-        gigantisch und unvorstellbar groß ist werden Entfernungen in Lichtjahren
-        angegeben. Pro Sekunde bewegt sich Licht um 299.792.458 Meter. Ein
-        Lichtjahr ist also die Entfernung, die Licht in einem Jahr zurücklegen
-        kann. Das sind 9,46 Billionen Kilometer!
+        gigantisch und unvorstellbar groß ist, werden Entfernungen in
+        Lichtjahren angegeben. Pro Sekunde bewegt sich Licht um 299.792.458
+        Meter. Ein Lichtjahr ist also die Entfernung, die Licht in einem Jahr
+        zurücklegen kann. Das sind 9,46 Billionen Kilometer!
         <br /> <br />
         A: ca. 147.776 PS
         <br />
@@ -218,11 +218,10 @@ export const Woche3 = () => {
         template=" "
       >
         Nun würden wir euch eigentlich gerne an einen passenden Ort dafür
-        schicken - aber es ist einfach zu warm, also möchten wir euch das
-        ersparen ;) Zum Glück könnt ihr diesen Ort auch digital besuchen. Macht
-        das doch mal und schaut euch gut um - so gut, dass ihr euch zumindest,
-        dass ihr euch im Kreis drehen könnt (Tipp: um wieviel Grad müsst ihr
-        euch drehen, um euch einmal um eure eigene Achse zu drehen?).
+        schicken - aber es ist einfach zu warm, also einfach digital besuchen.
+        Macht das doch mal und schaut euch gut um - so gut, dass ihr euch
+        zumindest, dass ihr euch im Kreis drehen könnt (Tipp: um wieviel Grad
+        müsst ihr euch drehen, um euch einmal um eure eigene Achse zu drehen?).
         <br />
         Wir suchen eine Person, die uns thematisch zurück in den Weltraum
         bringt.

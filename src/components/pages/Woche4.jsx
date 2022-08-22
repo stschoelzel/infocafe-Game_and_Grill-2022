@@ -284,7 +284,7 @@ export const Woche4 = () => {
         template="Stellt euch das so vor: wenn ihr mit einem Strohhalm ein Trinkpäckchen leer saugt, dann entsteht ein _. Ihr habt den Inhalt herausgesaugt, nicht wirklich absolut alle Teilchen – aber genug, damit ein _ entsteht. So ähnlich machen das die Planeten, Sterne und Galaxien. Sie ziehen, einfach gesagt, die Teilchen an wie ein Strohhalm. Das nennt man _kraft uns deshalb können wir im Weltall nicht atmen. "
         answer={["Vakuum", "Unterdruck", "Gravitations"]}
       >
-        Im Weltall herrscht ein Vakuum, also ein luftleerer Raum. Wir können
+        Im Weltall herrscht ein Vakuum, also ein luftleerer Raum. Deshalb können
         dort nicht atmen und würden vom Druck sogar zerquetscht werden.
       </Riddle>
 
@@ -307,10 +307,9 @@ export const Woche4 = () => {
         <br />
         Natürlich können Astronaut:innen die Raumstation auch verlassen, aber
         nur in Raumanzügen. Denn auch in den Anzügen ist die Versorgung mit
-        Sauerstoff und der Schutz vor Luftdruck/Vakuum?? und Kälte vorhanden.
-        Ohne Raumanzug würden Menschen im Weltall ersticken, erfrieren, oder vom
-        Luftdruck zerquetscht werden - die Frage ist nur, was zuerst eintreten
-        würde… ;-)
+        Sauerstoff und der Schutz vor Vakuum und Kälte vorhanden. Ohne Raumanzug
+        würden Menschen im Weltall ersticken, erfrieren, oder vom Luftdruck
+        zerquetscht werden - die Frage ist nur, was zuerst eintreten würde… ;-)
         <br />
         <br />
         Wir haben also wirklich Glück, auf der Erde zu leben, auf der es
