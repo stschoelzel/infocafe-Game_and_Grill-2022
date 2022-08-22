@@ -299,11 +299,12 @@ export const Woche2 = () => {
         12866593442700000000000 km <br />
         <br />
         <br />
-        Dieses Ultrahochauflösende Bild der "Cosmic Cliffs", die sind übriegns
+        Dieses Ultrahochauflösende Bild der "Cosmic Cliffs", die sind übrigens
         "nur" 7600 Lichtjahre von uns entfernt.
         <br />
         <br />
         (Du kannst das Bild auch einfach runterladen ;)
+        https://stellaris.infocafe.org/img/BIGPICTURE.webp
         <Map src="img/BIGPICTURE.webp" />
       </Riddle>
 
