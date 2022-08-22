@@ -413,7 +413,7 @@ export const Woche1 = () => {
         index={12}
         chapter={1}
         heading="Der Mythos X"
-        question="Welche Eigenschaften repräsentiert Neuptun?"
+        question="Welche Eigenschaften repräsentiert Neptun?"
         choices={[
           [" ", "Das Ego"],
           [" ", "Rebellion, Freiheit, Kreativität"],
