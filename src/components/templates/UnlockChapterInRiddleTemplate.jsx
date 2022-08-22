@@ -17,7 +17,8 @@ export const UnlockChapterInRiddleTemplate = ({ chapter, date }) => {
       // TIL {chapter} = object chapter = chapter:1    und chapter = 1 ....
       // debugger;
       if (
-        getRiddleState(chapter, config["chapters"][chapter - 2]) === "SOLVED"
+        getRiddleState(chapter, config["chapters"][chapter - 1] - 1) ===
+        "SOLVED"
       ) {
         solveChapter(chapter);
       }
