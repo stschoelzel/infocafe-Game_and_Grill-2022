@@ -13,6 +13,7 @@ import { theme } from "../../theme";
 import { StoreContext } from "../../helper/store";
 import { Link } from "react-router-dom";
 import { BackToHome } from "../atoms/BackToHome";
+import { UnlockChapterInRiddleTemplate } from "../templates/UnlockChapterInRiddleTemplate";
 
 const Rock = styled.div`
   background-image: url("img/rock.jpg");
@@ -31,242 +32,335 @@ export const Woche4 = () => {
   const riddle4_9 = getSubRiddleState(4, 9);
   return (
     <Parchment>
-      <H1>Woche 4 - Luft</H1>
-
+      <H1>Woche 4 - ISS</H1>
       <img
-        src="img/air.png"
+        src="img/woche4.png"
         style={{
           height: "100%",
           width: "100%",
         }}
       />
       <Riddle index={1} chapter={4} prolog>
-        Ihr reist durch das Gebirge und steuert auf den Gipfel des höchsten
-        Berges zu. Stück für Stück erklimmt ihr den Berg auf deren schmalen
-        Pfaden Richtung Himmel. Ihr seht, wie die Spitze des Berges in Wolken
-        hineinragt. Auf eurem Weg nach oben kommt ihr den Wolken immer näher,
-        bis ihr von ihnen umgeben seid.
-        <br />
-        <br />
-        Innerhalb der Wolken gelangt ihr auf den Gipfel. Dort erblickt ihr eine
-        riesige Treppe bestehend aus Wolken, die noch weiter in die Höhe führt.
-        Führt sie euch zu der fliegenden Insel? Bereit es herauszufinden,
-        besteigt ihr die Treppe in schwindelerregenden Höhen.
+        Willkommen in der letzten Rätselwoche des diesjährigen
+        Game’n’Grill-Events! Nachdem wir letzte Woche auf der Erde waren und den
+        Astronauten und ehemaligen Neu-Isenburger Thomas Reiter kennengelernt
+        haben, befinden wir uns in dieser Woche wieder im Weltall - genauer
+        gesagt auf der ISS, denn dort war war Thomas Reiter auch mal.
       </Riddle>
       <Riddle
         index={1}
         chapter={4}
-        heading="Quest 4.1	Die Wolkentreppe hinauf"
-        question="Womit endet die “Wolkentreppe”?"
-        answer="e"
+        heading="Die Internationale Raumstation (ISS)"
+        question="Was steht über der Kanadischen Flagge im Forschungslabor Columbus?"
+        answer="JAXA"
       >
-        Ihr kommt immer höher und höher, Stufe für Stufe, Wolke für Wolke. Weit
-        und breit seid ihr von mal mehr mal weniger dichten Wolkendecken
-        umgeben. Ab und an erblickt ihr den blauen Himmel an lichten Stellen
-        zwischen den Wolken. Ihr fragt euch, wann ihr wohl endlich ankommt.
+        Begebt euch selbst auf die ISS! Dazu müsst ihr nicht extra hochfliegen -
+        es reicht wenn ihr die Internationale Raumstation digital besucht. Geht
+        dazu auf: <br />
+        <br />
+        <a style={{ color: "green" }} href="https://earth.google.com/web/">
+          diesen Link zu Google Earth und gebt “ISS” in der Suchleiste ein.
+        </a>
+        <br />
+        Wählt dann unten bei den Voyager-Tourdemos die “Raumstation ISS” aus und
+        - bsssssssssinggg - ihr seid gelandet! Klickt euch gerne mal durch die
+        Räume, lest die Beschreibungstexte und schaut euch um, es lohnt sich!
+        <br />
+        <br />
+        Um die erste Aufgabe der letzten Woche zu beantworten, sagt uns: was
+        steht über der Kanadischen Flagge im Forschungslabor Columbus?
       </Riddle>
       <Riddle
         index={2}
         chapter={4}
-        heading="Auf der fliegenden Insel"
-        question="Wie viele Dreiecke sind es insgesamt?"
-        answer="17"
+        heading="Auf der ISS I"
+        question="Wie weit ist die ISS von unserer Erdoberfläche entfernt?"
+        template="_ Kilometer"
+        answer="400"
       >
-        Als ihr an das Ende der Wolkentreppe angelangt seid, erblickt ihr
-        tatsächlich die majestätische, idyllische Insel in den Wolken. Ihr
-        betretet die fliegende Insel und bestaunt die prächtige Landschaft, ihr
-        seht Bäume und Wiesen, auch kleinere Flüsse und Hügeln. In der Ferne
-        seht ihr einen Turm, in der der Nähe davon scheint auch eine Stadt zu
-        sein. Vielleicht leben dort die Vogelmenschen, die euch beim Artefakt
-        der Luft weiterhelfen können. Ihr macht euch auf Richtung Stadt.
+        Richtig, das gesuchte Wort war JAXA und steht für die Japan Aerospace
+        Exploration Agency. Wir wollen heute aber nicht nach Japan, sondern auf
+        der ISS bleiben. Schaut euch noch ein bisschen weiter um…
         <br />
         <br />
-        Angekommen steht ihr vor verschlossenen Toren. Davor stehen zwei
-        Vogelmenschen, humanoide Wesen mit einem Vogelkopf und Flügel auf den
-        Rücken, die anscheinend den Eingang zur Stadt bewachen. Einer der
-        Vogelmenschen spricht zu euch: “Hier befindet sich die Stadt der
-        Vogelmenschen. Aufgrund der aktuellen Situation dürfen wir jedoch keine
-        Fremden passieren lassen. Sagt, Reisende, was habt ihr hier zu suchen?”
-        Ihr erklärt den wachestehenden Vogelmenschen, dass ihr auf der Suche
-        nach dem Artefakt der Luft seid, um seine Mächte wieder herzustellen.
-        “Verstehe, ihr seid also die Auserwählten, die unsere Insel vor dem
-        Unheil bewahren werden.”, entgegnet euch der Vogelmensch, “Wir dürfen
-        euch jedoch erst eintreten lassen, wenn ihr euch als würdig erweist.”
-        <br /> <br />
-        <img
-          src="img/4_2.png"
-          style={{
-            height: "100%",
-            width: "100%",
-          }}
-        />
-        <br />
-        “Seht ihr die Wand mit den Dreiecken dort? Wenn ihr uns verrät, wie
-        viele verschiedene Dreiecke ihr insgesamt entdecken könnt, lassen wir
-        euch passieren.”
+        Weil’s so spannend ist, wollen wir noch ein bisschen mehr über die ISS
+        lernen. Mal schauen, was ihr herausfinden könnt.
       </Riddle>
-
       <Riddle
         chapter={4}
         index={3}
-        heading="Der Himmelsturm"
-        question={"Wie lautet der Zahlencode?"}
-        answer={"472"}
+        heading="Auf der ISS II"
+        question={""}
+        answer={"Schwerelosigkeit"}
+        template="Experimente zur _"
       >
+        Welche Experimente werden im Forschungslabor Columbus durchgeführt, bzw.
+        was existiert im Weltall (jedenfalls mehr als auf der Erde), muss auf
+        der Erde aber künstlich und aufwändig erzeugt werden?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={4}
+        heading="Auf der ISS III"
+        question={""}
+        answer="Cupola"
+        template="Im Raum _"
+      >
+        In welchem Raum ist die Roboter-Workstation, die den Roboterarm steuert,
+        der sich außen an der ISS befindet?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={5}
+        heading="Auf der ISS IV"
+        question={" "}
+        answer="Zenit"
+        template="Der _ - Kopplungsstutzen."
+      >
+        Welcher Kopplungsstutzen wurde in Node 3 stillgelegt?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={6}
+        heading="Auf der ISS V"
+        question={" "}
+        answer="Permanentes Mehrzweckmodul"
+        template="PMM steht für _."
+      >
+        Wofür steht die Abkürzung PMM?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={7}
+        heading="Auf der ISS VI"
+        question={" "}
+        answer="4"
+        template="Bis zu _ Astronaut:innen."
+      >
+        Wie viele Astronaut:innen können in Node 2 wohnen?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={8}
+        heading="Auf der ISS VII"
+        question={" "}
+        answer="Raumfrachter"
+        template="Die Versorgungsraumschiffe werden auch _ genannt."
+      >
+        Wie heißen die Versorgungsraumschiffe, die die Raumstation mit Gütern
+        und Treibstoff versorgen und an der ISS über Node 1 andocken?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={9}
+        heading="Auf der ISS VIII"
+        question={" "}
+        answer="Schicksal"
+        template="Auf Deutsch übersetzt heißt es _."
+      >
+        Wie würde das US-Labormodul heißen, wenn man seinen Namen ins Deutsche
+        übersetzen würde?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={10}
+        heading="Auf der ISS IX"
+        question={" "}
+        answer="Crew Lock"
+        template="Die 'Haustür' für die Astronaut:innen heißt _."
+      >
+        Wie wird die Luftschleuse mit Außenluke genannt, durch die
+        Besatzungsmitglieder die ISS verlassen und die Weiten des Weltalls
+        betreten können?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={11}
+        heading="Auf der ISS X"
+        question={" "}
+        answer="Dragon"
+        template="Das Frachtraumschiff heißt _."
+      >
+        Wie ist der Name des derzeit einzigen Raumschiffs, das erhebliche
+        Frachtmengen zur Erde zurücktransportieren kann?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={12}
+        heading="Auf der ISS XI"
+        question={" "}
+        answer="Abfälle"
+        template="Cygnus transportiert _ ab."
+      >
+        Was transportiert Cygnus von der ISS ab?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={13}
+        heading="Auf der ISS XII"
+        question={" "}
+        answer="Hoffnung"
+        template="Es bedeutet _."
+      >
+        Was bedeutet der Name des Japanischen Labormoduls?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={14}
+        heading="Auf der ISS XIII"
+        question={" "}
+        answer="BEAM"
+        template="Es bedeutet Die Abkürzung ist _."
+      >
+        Wie lautet die Abkürzung des Moduls, das ganz klein transportiert und
+        anschließend aufgeblasen und einem komfortablen Raum werden kann?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={15}
+        heading="Auf der ISS XIV"
+        question={" "}
+        answer="Abenddämmerung"
+        template="Auf Deutsch heißt es _."
+      >
+        Wie kann man den russischen Namen des Mini-Research Modul 1 ins Deutsche
+        übersetzen?
+      </Riddle>
+      <Riddle
+        index={16}
+        chapter={4}
+        heading="Auf der ISS XV"
+        question={" "}
+        answer={["Lager", "Antrieb"]}
+        template="_ und _"
+      >
+        Was sind heute die Aufgaben des Functional Cargo Blocks Sarja, dessen
+        Name “Sonnenaufgang” bedeutet und der früher die gesamte
+        Energieversorgung und Kommunikation übernahm?
         <br />
         <br />
-        Die Wachen gewähren euch Einlass in die Stadt der Vogelmenschen. Einer
-        von ihnen weist euch darauf hin, bezüglich des Artefakts der Luft die
-        Hohepriesterin der Stadt aufzusuchen. So begebt ihr euch in ein
-        riesiges, kirchenartiges Gebäude, den Hallen des Himmels, wo sie auf
-        euch wartet.
-        <br />
-        <br />
-        “Willkommen, werte Reisende. Ihr seid hier, um die Kraft des letzten
-        fehlenden Artefakts, dem Artefakt der Luft, wiederherzustellen, habe ich
-        Recht?”, spricht die Hohepriesterin zu euch, “Von den Bewohnenden der
-        Hauptinsel habe ich bereits die Botschaft erhalten, dass durch euch die
-        anderen drei Artefakte wieder zu ihren ursprünglichen Kräften gekommen
-        sind. Ich spreche euch ebenfalls im Namen der Vogelmenschen meinen
-        großen Dank an euch aus für eure noblen Taten. Auch wir hier oben auf
-        der fliegenden Insel bleiben von den Folgen der schwinden Kraft der
-        heiligen Artefakte nicht verschont. Die tragenden Winde wehen nicht
-        mehr, sodass wir nicht mehr so einfach auf die Hauptinsel runter oder
-        von dort aus zurück auf unsere Insel fliegen können.”
-        <br />
-        <br />
-        Die Hohepriesterin spricht weiter zu euch: “Vielleicht habt ihr bereits
-        den Turm in der Nähe unserer Stadt erspäht. Das ist der Himmelsturm. Ihr
-        müsst ihn erklimmen, um zum Artefakt der Luft zu gelangen. Ich werde die
-        Vogelmenschen bitten, euch zum Eingang des Himmelsturms zu bringen. Das
-        ist das Mindeste, was ich euch für eure Hilfe anbieten kann.” So steigt
-        ihr auf die Rücken der Vogelmenschen und ihr fliegt gemeinsam zum
-        Himmelsturm.
-        <br />
-        <br />
-        Angekommen erzählt euch einer der Vogelmenschen: “Hier ist der Eingang
-        zum Himmelsturm. Von hier müsst ihr leider von innen aus den Turm
-        hinauf. Durch die fehlenden Winde schaffen wir es leider nicht, euch bis
-        ganz oben an die Turmspitze zu fliegen. Aber im Turm gibt es eine
-        Vorrichtung, der euch rasch zur Spitze bringen wird.” Ihr betretet
-        demnach den Himmelsturm und findet eine riesige und runde Steinplatte
-        vor euch. Es scheint ein Aufzug zu sein, der euch nach oben befördern
-        kann. In der Mitte der Steinplatte seht ihr eine kleine Vorrichtung. Ob
-        sich damit der Aufzug aktivieren lässt?
-        <br />
-        <br />
-        Ihr seht in der Vorrichtung ein Bedienfeld. Ihr müsst ein Zahlencode
-        eingeben, damit der Aufzug aktiviert wird.
-        <br />
-        <img
-          src="img/4_31.png"
-          style={{
-            height: "100%",
-            width: "100%",
-          }}
-        />
-        <br />
-        <br />
-        Ihr könnt dabei auf die folgende Seite gehen, um das Nonogramm zu lösen:
-        https://nonogramm.relaxweb.de/nonogramm/51173
-        <br />
-        Auf der Vorrichtung seht ihr ebenfalls eine Bedienungsanleitung:
-        <br />
-        <img
-          src="img/4_32.png"
-          style={{
-            height: "100%",
-            width: "100%",
-          }}
-        />
-        <br />- Schwärze bestimmte Felder des Diagramms schwarz - die schwarzen
-        Felder bilden ein Feld breite Streifen, deren Anzahl, Reihenfolge und
-        Länge durch die Zahlenfolgen am oberen und linken Rand definiert sind -
-        jede Zahl steht für die Länge eines Streifens schwarzer Felder in der
-        entsprechenden Zeile bzw. Spalte - zwei Streifen sind durch mindestens
-        ein weißes Feld voneinander getrennt.
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={17}
+        heading="Auf der ISS XVI"
+        question={" "}
+        answer="Sojus"
+        template="Das Zubringerraumschiff heißt _."
+      >
+        Wie heißt das bemannte Zubringerraumschiff, das an das Mini-Research
+        Modul 2 andocken kann?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={18}
+        heading="Auf der ISS XVII"
+        question={" "}
+        answer="Luftschleuse"
+        template="Es wird als _ genutzt."
+      >
+        Wie wird das Docking Compartment 1 bei Außenbordeinsätzen genutzt?
+      </Riddle>
+      <Riddle
+        chapter={4}
+        index={19}
+        heading="Weiter geht's!"
+        question={"Ok?"}
+        answer="ok"
+        template="_!"
+      >
+        Aber warum ist so eine Luftschleuse überhaupt so wichtig und wozu dienen
+        eigentlich die dicken Raumanzüge? Macht euch bereit für das nächste
+        Kapitel...
+      </Riddle>
+
+      {/* Ab hier beginnt Aufgabe 3!!! */}
+
+      <Riddle
+        chapter={4}
+        index={20}
+        heading="In den Weiten des Weltalls I"
+        question={" "}
+        template="Stellt euch das so vor: wenn ihr mit einem Strohhalm ein Trinkpäckchen leer saugt, dann entsteht ein _. Ihr habt den Inhalt herausgesaugt, nicht wirklich absolut alle Teilchen – aber genug, damit ein _ entsteht. So ähnlich machen das die Planeten, Sterne und Galaxien. Sie ziehen, einfach gesagt, die Teilchen an wie ein Strohhalm. Das nennt man _kraft uns deshalb können wir im Weltall nicht atmen. "
+        answer={["Vakuum", "Unterdruck", "Gravitations"]}
+      >
+        Im Weltall herrscht ein Vakuum, also ein luftleerer Raum. Wir können
+        dort nicht atmen und würden vom Druck sogar zerquetscht werden.
       </Riddle>
 
       <Riddle
         chapter={4}
-        index={4}
-        heading="Das Artefakt der Luft"
-        question={"Screenshot mit 15 Punkten (oder mehr) an uns"}
-        answer="Ventus"
+        index={21}
+        heading="In den Weiten des Weltalls II"
+        question={" "}
+        template="Wissenschaftler:innen suchen das Weltall, soweit sie blicken können, nach anderen Planeten ab, die Leben ermöglichen könnten. Wie wir wissen, umkreisen wir die Sonne, denn sie ist unser Stern. Planeten, die andere Sterne umkreisen, heißen _.
+        Außerdem ist es wichtig, dass ein Planet nicht zu nah und auch nicht zu weit weg von seinem Stern ist, damit es nicht zu heiß oder zu kalt ist. Den Bereich, an dem es genau richtig warm ist, damit es Wasser in flüssiger Form geben kann, nennt man _ Zone.
+        Es gibt Gas- und Gesteinsplaneten, die entweder aus Gasen oder überwiegend aus Gesteinen bestehen. Um Leben zu ermöglichen, sind _ planeten besser geeignet."
+        answer={["Exoplaneten", "habitale", "Gesteins"]}
       >
-        Die steinerne Platte, auf der ihr euch befindet, fängt an zu leuchten.
-        Der Boden scheint etwas zu beben, bis plötzlich die Steinplatte sich vom
-        Boden hebt und in die Luft steigt. Der Aufzug wurde aktiviert und ihr
-        werdet nach oben befördert. Meter für Meter steigt ihr den Himmelsturm
-        empor, zunächst langsam, dann immer schneller.
+        Auf der ISS werden Luftdruck und Sauerstoffversorgung durch ein
+        Lebenserhaltungssystem geregelt. Die Luftschleuse trennt den Wohn- und
+        Arbeitsbereich der Raumstation vom Ausgang in den Weltall ab, damit der
+        Sauerstoff beim Öffnen der Tür nicht ins Weltall entweicht und der
+        Luftdruck massiv verändert wird.
         <br />
         <br />
-        Plötzlich bleibt der Aufzug stehen und ihr seht vor euch eine
-        Wendeltreppe, die euch auf die oberste Ebene des Turms führt. Ihr geht
-        die Treppe hinauf, bis ihr wieder im Freien seid. Ihr befindet auch auf
-        der Spitze des Turms in schwindelerregender Höhe. In der Mitte seht ihr
-        ein Altar, worauf ein Fächer platziert ist. Das muss wohl das Artefakt
-        der Luft sein. Ihr geht dorthin mit der Entschlossenheit, euch der
-        nächsten Aufgabe zu stellen. Fast habt ihr es geschafft, die Macht aller
-        vier heiligen Artefakte auf der Insel wiederherzustellen. Ihr berührt
-        das letzte der Artefakte und ein helles gelbes Licht blitzt auf.
+        Natürlich können Astronaut:innen die Raumstation auch verlassen, aber
+        nur in Raumanzügen. Denn auch in den Anzügen ist die Versorgung mit
+        Sauerstoff und der Schutz vor Luftdruck/Vakuum?? und Kälte vorhanden.
+        Ohne Raumanzug würden Menschen im Weltall ersticken, erfrieren, oder vom
+        Luftdruck zerquetscht werden - die Frage ist nur, was zuerst eintreten
+        würde… ;-)
         <br />
         <br />
-        Seid auf eine kleine Herausforderung gefasst. Geht auf die folgende
-        Seite und schafft bei Flappybird eine Mindestpunktzahl von 15 Punkten:
-        https://flappybird.io
-        <br />
-        <br />
-        Wenn ihr uns ein Screenshot mit der erreichten Punktzahl zukommen lässt,
-        dann erhaltet ihr das Lösungswort, um euer Abenteuer fortzusetzen.
-      </Riddle>
-      <Riddle chapter={4} index={5} epilog>
-        Das Artefakt der Luft schimmert in einem goldgelben Glanz und fängt an
-        sich um seine eigene Achse zu drehen. Plötzlich entsteht um euch herum
-        ein Wirbelwind. Vom Himmelsturm aus strömen starke Windböen auf die
-        Insel. Dann hört der Wirbel auf und ihr spürt eine sanft wehende Brise.
-        Die Macht des Artefakts der Luft ist wieder hergestellt. Und somit haben
-        alle vier heiligen Artefakte ihre ursprünglichen Kräfte wiedererlangt.
-        <br />
-        <br />
-        Die Vogelmenschen fliegen zu euch auf die Turmspitze herauf: “Ihr habt
-        es geschafft! Der Wind ist wieder da, wir können wieder uneingeschränkt
-        durch die Lüfte fliegen. Habt vielen Danke, Reisende!” Auf deren Rücken
-        fliegt ihr gemeinsam wieder zurück zur Stadt der Vogelmenschen. Dort
-        erwartet euch schon die Hohepriesterin: “Reisende, die vier heiligen
-        Artefakte sind dank euch wieder hergestellt. Ich kann euch nicht genug
-        dafür danken. Ihr habt unsere Insel vor dem Untergang bewahrt. Das muss
-        gefeiert werden!”
-        <br />
-        <br />
-        Doch die Freude hält nicht lang an, denn plötzlich fängt es überall an
-        zu beben. Die Vogelmenschen sind verunsichert: “Oh nein, was passiert
-        hier?” Es entstehen um euch rum starke Wirbelstürme. “Das kann nicht
-        sein, ich dachte die Insel sei gerettet.”, sagt die Priesterin. Einer
-        der Vogelmenschen stürmt zu euch und der Hohepriesterin rüber: “Das
-        müsst ihr euch ansehen! Die fliegende Insel, sie verliert langsam an
-        Höhe und droht auf die Hauptinsel zu fallen!” Zudem erreicht ein
-        fliegender Brief die Hohepriesterin: “Wie? Eine Nachricht von dem
-        Ältesten der Fischmenschen? Dort steht geschrieben, dass auf der
-        Hauptinsel ähnliche Vorfälle stattfinden: Erdbeben, Stürme, Flutwellen
-        und aus dem Vulkan tritt Lava aus… Er bittet euch Reisende zum Dorf der
-        Fischmenschen zurückzukehren. Wir werden euch runter zur Insel fliegen,
-        jetzt wo es dank euch wieder möglich ist.”
-        <br />
-        <br />
-        Gemeinsam mit den Vogelmenschen fliegt ihr von der langsam sinkenden
-        fliegend Insel runter auf die Hauptinsel. In der Ferne erblickt ihr
-        Mitten im Himmel einen Spalt, in dem nur tiefe Dunkelheit zu erkenne
-        ist. Die Hohepriesterin wirkt sehr verunsichert: “Wie kann es sein? Ist
-        es etwas möglich, dass… Wir müssen uns beeilen!”
-        <br />
-        <br />
-        Fortsetzung folgt...
-        <br />
-        <br />
-        <H4>23.08.2020</H4>
+        Wir haben also wirklich Glück, auf der Erde zu leben, auf der es
+        Sauerstoff und Wasser gibt, denn beides ist für uns Menschen
+        lebenswichtig. Das ist nicht selbstverständlich, denn nicht nur im
+        Weltall, sondern auch auf den meisten anderen Planeten ist Leben nicht
+        möglich, sie sind zu heiß oder zu kalt, Wasser würde verdampfen oder
+        gefrieren.
       </Riddle>
 
+      <Riddle
+        chapter={4}
+        index={22}
+        heading="In den Weiten des Weltalls III"
+        question={" "}
+        template="Die Planeten, die alle diese Kriterien erfüllen und bisher entdeckt wurden, sind aber viel zu weit - über 100 Lichtjahre!
+        Und anderes Leben im All wurde bisher noch gar nicht gefunden, dabei ist das Weltall doch schon 13,8 _ Jahre alt, also seit seiner Geburt, dem _.
+        
+        Wir sollten also wirklich dankbar für unsere lebensfreundliche, grün-blaue Erde sein, die uns frischen Sauerstoff und so viel Wasser liefert. Sie ist nur eine von unendlich vielen Planeten im Weltall und trotzdem so besonders. Und so klein, im riesigen Weltall, eigentlich nur ein kleiner Punkt - oder wie Carl Sagen sagte: a _ _ _."
+        answer={["Milliarden", "Urknall", "pale", "blue", "dot"]}
+      ></Riddle>
+
+      <Riddle chapter={4} index={23} epilog>
+        <img
+          src="img/pale.png"
+          style={{
+            height: "100%",
+            width: "100%",
+          }}
+        />
+        <br />
+        <br />
+        “Betrachte noch einmal diesen Punkt. Das ist hier. Das ist zu Hause. Das
+        sind wir. Darauf hat jeder, den du liebst, jeder, den du kennst, jeder,
+        von dem du jemals gehört hast, jeder Mensch, der jemals war, sein Leben
+        gelebt.” <br />
+        -Zitat von Carl Sagen
+        <br />
+        <br />
+        Und nun begeben wir uns zurück auf den kleinen, blassen, blauen Punkt -
+        unsere Erde. Schön, dass ihr mitgemacht habt! Nächste Woche grillen wir
+        - guten Appetit :)
+        <br />
+        <br />
+        <b style={{}}>
+          Wann? Dienstag, 30. August 2022 <br />
+          Uhrzeit? Zu den normalen Clubzeiten <br />
+          Wo? infocafe!
+        </b>
+      </Riddle>
       <BackToHome />
     </Parchment>
   );
